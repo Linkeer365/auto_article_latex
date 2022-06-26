@@ -12,6 +12,7 @@ import shutil
 import sys
 
 # large 状态下经常出格，不知道怎么办才好
+# 试过多次是这个16 21 最合适
 proper_essay_word_cnt=380
 proper_poem_line_cnt_firstpage=16
 proper_poem_line_cnt=21
@@ -189,7 +190,8 @@ if __name__ == "__main__":
 
     ori_dir=os.getcwd()
     os.chdir("records")
-    os.mkdir(record_name)
+    if not os.path.exists(record_name):
+        os.mkdir(record_name)
     os.chdir(record_name)
 
     shutil.copyfile("../../text_files/{}.txt".format(filename),"{}.txt".format(new_title))
@@ -199,21 +201,27 @@ if __name__ == "__main__":
     os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output* *-2.txt")
     shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,new_title))
 
+    shutil.copyfile("output.pdf", "D:/Alldowns/{}.pdf".format(record_name,new_title))
+    
     voice_content=content
     if poem_or_essay == "essay":
         voice_contents=voice_content.split(essay_insert)
         for i,vc in enumerate(voice_contents):
             new_vc=vc.replace(essay_head, "")
+            new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
             voice_contents[i]=new_vc
     elif poem_or_essay == "poem":
         # print("vc:",voice_content)
         voice_contents=voice_content.split(poem_insert)
         for i,vc in enumerate(voice_contents):
             new_vc=vc.replace(poem_head, "").replace(poem_bottom, "").replace("\\", "")
+            new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
             voice_contents[i]=new_vc
-    page_sep="\n\n\n                   ==========                     \n\n\n"
+    page_sep=""
     voice_contents_s=page_sep.join(voice_contents)
+    voice_contents_s="{}\n{}\n\n".format(title,author)+voice_contents_s
     with open("voice.txt","w",encoding="utf-8") as f:
         f.write(voice_contents_s)
+    shutil.copyfile("voice.txt", "records/{}/voice.txt".format(record_name))
     print("done.")
     # os.system("cd ./text_files")
