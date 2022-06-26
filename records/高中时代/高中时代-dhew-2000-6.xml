@@ -1,6 +1,6 @@
 <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
-    <voice name="zh-CN-XiaoxiaoNeural">
-        <prosody rate="0%" pitch="0%">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
         在那片学生如海，玩家如潮的地方只求一败，也算自豪。
 
 常去的电脑房藏在一家面店的地下室里。我们总是驾轻就熟的穿过只有苍蝇停靠的桌椅，直奔柜台后通向下层的楼梯。一个中午奋战下来，随便吃点什么东西就往学校跑，但大多数时候什么都不吃。因为午饭钱已经丢在地下室了。

@@ -1,6 +1,6 @@
 <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
-    <voice name="zh-CN-XiaoxiaoNeural">
-        <prosody rate="0%" pitch="0%">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
         脑的。但仍然夜夜的跟我们出去通宵，嗯，应该说是，夜夜的带领我们出去通宵。当时不理解为什么，现在才隐约明白到，玩游戏这种事情，是要人陪的。这种心情与游戏无关，只是自然而然的不想一个人。
 
 高中之后，便不再有通宵的心情。每次想想，都不免惋惜，并且明白到，游戏什么时候都有，但是朋友不是。那种全心投入的时候也已经过去了。

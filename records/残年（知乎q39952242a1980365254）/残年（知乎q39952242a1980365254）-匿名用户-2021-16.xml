@@ -1,0 +1,11 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+我平静地站在那里，看着她，不知过了多久，直到护工告诉我，她走了。
+
+我脑子里嗡的一声，一片黑暗从头顶压下来像是有什么东西塌了。
+        </prosody>
+    </voice>
+</speak>

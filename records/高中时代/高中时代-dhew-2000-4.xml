@@ -1,6 +1,6 @@
 <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
-    <voice name="zh-CN-XiaoxiaoNeural">
-        <prosody rate="0%" pitch="0%">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
         像也要到进大学才看到。课外的娱乐除了爬山，就是玩电脑了。
 
 初中时学过一点basic，对这种能够回应指令的神奇机器极感兴趣。之后这兴趣便慢慢传移到游戏上。高二暑假家里买了电脑，还没来得及玩便开学了。十分不爽的惦记着家里的那台，一边关注着身边的种种。后来听说学校附近开了电脑房，便拉了朋友去找。在路上碰到了去玩的学生。游戏生涯便由此开始。

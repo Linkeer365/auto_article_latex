@@ -20,8 +20,8 @@ proper_poem_line_cnt=21
 # essay_too_short=15
 # poem_too_short=5
 essay_word_per_line=23
-proper_essay_line_cnt_firstpage=17
-proper_essay_line_cnt=23
+proper_essay_line_cnt_firstpage=17-2
+proper_essay_line_cnt=23-2
 
 poem_or_essay=""
 
@@ -221,6 +221,8 @@ if __name__ == "__main__":
         voice_contents=voice_content.split(essay_insert)
         for i,vc in enumerate(voice_contents):
             new_vc=vc.replace(essay_head, "")
+            print(new_vc)
+            # os._exit(0)
             if i == 0:
                 new_vc="{}\n{}\n\n".format(title,author)+new_vc
             xml_path="{}-{}.xml".format(new_title,i+1)

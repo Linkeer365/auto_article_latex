@@ -1,6 +1,6 @@
 <speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
-    <voice name="zh-CN-XiaoxiaoNeural">
-        <prosody rate="0%" pitch="0%">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
         
 
 只是在那时，我才发现自己一直都是从一个方向考量生活中的种种，而这是一个多向度的世界。存在着彼此交错的不同方向，以及对同一件事物的不同观感。这个发现带来如此的巨大的意义，以至于我终于把对朋友们的愧疚抛到了脑后。
