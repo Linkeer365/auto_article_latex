@@ -12,11 +12,14 @@
 import re
 import os
 import shutil
+import sys
 
 proper_essay_word_cnt=380
 proper_poem_line_cnt=16
 essay_too_short=15
 poem_too_short=5
+essay_word_per_line=23
+proper_essay_line_cnt=18
 
 poem_or_essay=""
 
@@ -51,14 +54,61 @@ def process(poem_or_essay,filename):
         # idxs=[]
         new_str=""
         para_idxs=[m.start() for m in re.finditer('\n\n', full_article_str)]
+
+        # 开头空两格
+        word_cnt=2
+        essay_lines=[]
+        last_idx=0
+        print(para_idxs)
+        cur_line=""
         for idx,word in enumerate(full_article_str):
-            my_slice=full_article_str[head_idx:idx]
-            new_str+=word
-            if hans_count(my_slice) >= proper_essay_word_cnt:
-                print("head:{}\tnow:{}".format(head_idx,idx))
-                new_str+=essay_insert
-                # idxs.append(idxs)
-                head_idx=idx
+            word_cnt+=1
+            cur_line+=word
+            # print(cur_line)
+            if word_cnt % essay_word_per_line == 0:
+                essay_line=full_article_str[last_idx:idx]
+                essay_lines.append(essay_line)
+                last_idx=idx
+                cur_line=""
+            if idx in para_idxs:
+                essay_line=full_article_str[last_idx:idx]
+                if not essay_line in essay_lines:
+                    essay_lines.append(essay_line)
+                word_cnt=2
+                last_idx=idx
+                cur_line=""
+        
+        if cur_line!="":
+            print("bottom:",cur_line)
+            # 尾部的人赶紧上车
+            essay_line=cur_line
+            essay_lines.append(essay_line)
+        
+        new_lines=[]
+        for i,el in enumerate(essay_lines,1):
+            print(el,"\t",i)
+            if i % proper_essay_line_cnt == 0:
+                new_el=el+essay_insert
+                new_lines.append(new_el)
+            else:
+                new_lines.append(el)
+        
+        for i,el in enumerate(new_lines,1):
+            print(el,"\t",i)
+
+        new_str="".join(new_lines)
+        #     print(el,"\t",i)
+        # print(repr(essay_lines[35]),repr(essay_lines[36]),repr(essay_lines[37]),sep="\n")
+        # sys.exit(0)
+
+        # for idx,word in enumerate(full_article_str):
+        #     my_slice=full_article_str[head_idx:idx]
+        #     new_str+=word
+        #     if hans_count(my_slice) >= proper_essay_word_cnt:
+        #         print("head:{}\tnow:{}".format(head_idx,idx))
+        #         new_str+=essay_insert
+        #         # idxs.append(idxs)
+        #         head_idx=idx
         essay_head=open("./stable/essay_head.txt","r",encoding="utf-8").read()
         new_str=essay_head+new_str
         with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
@@ -95,15 +145,19 @@ if __name__ == "__main__":
     author=input("作者:")
     date=input("日期:(英文空格隔开)").replace(" ","-")
     pe=input("p or e (poem or essay):")
+    pe="e"
     if pe == "e":
         print("e")
         poem_or_essay = "essay"
     elif pe == "p":
         print("p")
         poem_or_essay = "poem"
-    filename=input("filename:")
+    # filename=input("filename:")
+    filename="ee"
     print(poem_or_essay)
     process(poem_or_essay,filename)
+
+    # sys.exit(0)
 
     with open("./stable/poem_essay_template.tex","r",encoding="utf-8") as f:
         lines_s=f.read()
