@@ -1,0 +1,8 @@
+\setlength\parindent{0pt}
+
+\begin{center}
+
+\begin{minipage}{0.5\linewidth}
+
+\Large
+
