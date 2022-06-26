@@ -23,15 +23,6 @@ proper_essay_line_cnt=18
 
 poem_or_essay=""
 
-essay_insert=open("./stable/essay_insert.txt","r",encoding="utf-8").read()
-essay_head=open("./stable/essay_head.txt","r",encoding="utf-8").read()
-poem_inserts=open("./stable/poem_insert.txt","r",encoding="utf-8").readlines()
-poem_insert=open("./stable/poem_insert.txt","r",encoding="utf-8").read()
-poem_head=open("./stable/poem_head.txt","r",encoding="utf-8").read()
-poem_bottom=open("./stable/poem_bottom.txt","r",encoding="utf-8").read()
-
-
-
 def hans_count(str):
     # 数一数中文字数
     hans_total = 0
@@ -59,7 +50,7 @@ def process(poem_or_essay,filename):
         with open ("./text_files/{}.txt".format(filename), "r", encoding="utf-16-le") as f:
             full_article_str = f.read ()
         head_idx=0
-        
+        essay_insert=open("./stable/essay_insert.txt","r",encoding="utf-8").read()
         # idxs=[]
         new_str=""
         para_idxs=[m.start() for m in re.finditer('\n\n', full_article_str)]
@@ -118,7 +109,7 @@ def process(poem_or_essay,filename):
         #         new_str+=essay_insert
         #         # idxs.append(idxs)
         #         head_idx=idx
-        
+        essay_head=open("./stable/essay_head.txt","r",encoding="utf-8").read()
         new_str=essay_head+new_str
         with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
             f.write(new_str)
@@ -129,15 +120,18 @@ def process(poem_or_essay,filename):
 
         head_idx=0
         new_lines=[]
+        poem_insert=open("./stable/poem_insert.txt","r",encoding="utf-8").readlines()
         for idx,line in enumerate(lines):
             line=line.replace("\n"," \\\\\n")
             cnt=idx-head_idx
             new_lines.append(line)
             if cnt >= proper_poem_line_cnt:
-                new_lines.extend(poem_inserts)
+                new_lines.extend(poem_insert)
                 head_idx=idx
         new_lines_s="".join(new_lines)
         # print(new_lines_s)
+        poem_head=open("./stable/poem_head.txt","r",encoding="utf-8").read()
+        poem_bottom=open("./stable/poem_bottom.txt","r",encoding="utf-8").read()
         new_lines_s=poem_head+new_lines_s+poem_bottom
         with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
             f.write(new_lines_s)
@@ -151,14 +145,15 @@ if __name__ == "__main__":
     author=input("作者:")
     date=input("日期:(英文空格隔开)").replace(" ","-")
     pe=input("p or e (poem or essay):")
+    pe="e"
     if pe == "e":
         print("e")
         poem_or_essay = "essay"
     elif pe == "p":
         print("p")
         poem_or_essay = "poem"
-    filename=input("filename:")
-    # filename="ee"
+    # filename=input("filename:")
+    filename="ee"
     print(poem_or_essay)
     process(poem_or_essay,filename)
 
@@ -182,37 +177,19 @@ if __name__ == "__main__":
     with open("./text_files/output.tex","w", encoding="utf-8") as f:
         f.write(new_s4)
     
-    record_name="{}".format(title)
-    year=date.split("-")[0]
-    new_title="{}-{}-{}".format(title,author,year)
+    record_name="{}-{}".format(title,author)
 
     ori_dir=os.getcwd()
     os.chdir("records")
     os.mkdir(record_name)
     os.chdir(record_name)
 
-    shutil.copyfile("../../text_files/{}.txt".format(filename),"{}.txt".format(new_title))
-    shutil.copyfile("../../text_files/output.tex","{}.tex".format(new_title))
+    shutil.copyfile("../../text_files/{}.txt".format(filename),"{}.txt".format(title))
+    shutil.copyfile("../../text_files/output.tex","{}.tex".format(title))
 
     os.chdir(ori_dir)
-    os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output* *-2.txt")
-    shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,new_title))
+    os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output* *.txt")
+    shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,title))
 
-    voice_content=content
-    if poem_or_essay == "essay":
-        voice_contents=voice_content.split(essay_insert)
-        for i,vc in enumerate(voice_contents):
-            new_vc=vc.replace(essay_head, "")
-            voice_contents[i]=new_vc
-    elif poem_or_essay == "poem":
-        # print("vc:",voice_content)
-        voice_contents=voice_content.split(poem_insert)
-        for i,vc in enumerate(voice_contents):
-            new_vc=vc.replace(poem_head, "").replace(poem_bottom, "").replace("\\", "")
-            voice_contents[i]=new_vc
-    page_sep="\n\n\n                   ==========                     \n\n\n"
-    voice_contents_s=page_sep.join(voice_contents)
-    with open("voice.txt","w",encoding="utf-8") as f:
-        f.write(voice_contents_s)
     print("done.")
     # os.system("cd ./text_files")
