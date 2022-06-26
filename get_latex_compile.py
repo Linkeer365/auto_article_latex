@@ -32,7 +32,15 @@ poem_insert=open("./stable/poem_insert.txt","r",encoding="utf-8").read()
 poem_head=open("./stable/poem_head.txt","r",encoding="utf-8").read()
 poem_bottom=open("./stable/poem_bottom.txt","r",encoding="utf-8").read()
 
+std_xml_pack=open("./stable/std_audio_pack.xml","r",encoding="utf-8").read()
 
+# thank you so much for your wonderful help!
+# https://github.com/skygongque/tts
+#  
+tts_py_path="./tts/python_cli_demo/tts.py"
+
+def xml_pack(words):
+    return std_xml_pack.replace("<Your-Words>", words)
 
 def hans_count(str):
     # 数一数中文字数
@@ -81,6 +89,7 @@ def process(poem_or_essay,filename):
                 essay_lines.append(essay_line)
                 last_idx=idx
                 cur_line=""
+                
             if idx in para_idxs:
                 essay_line=full_article_str[last_idx:idx]
                 if not essay_line in essay_lines:
@@ -203,25 +212,57 @@ if __name__ == "__main__":
 
     shutil.copyfile("output.pdf", "D:/Alldowns/{}.pdf".format(record_name,new_title))
     
+    # voice 
+
     voice_content=content
+
+    audio_comm_patt="python \"{}\" --input \"{}\" --output \"{}\""
     if poem_or_essay == "essay":
         voice_contents=voice_content.split(essay_insert)
         for i,vc in enumerate(voice_contents):
             new_vc=vc.replace(essay_head, "")
+            if i == 0:
+                new_vc="{}\n{}\n\n".format(title,author)+new_vc
+            xml_path="{}-{}.xml".format(new_title,i+1)
+            with open(xml_path,"w",encoding="utf-8") as f:
+                ap=xml_pack(new_vc)
+                f.write(ap)
+            audio_path="{}-{}".format(new_title,i+1)
+            audio_comm=audio_comm_patt.format(tts_py_path,xml_path,audio_path)
+            print("audio comm:",audio_comm)
+            os.system(audio_comm)
+
             new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
             voice_contents[i]=new_vc
     elif poem_or_essay == "poem":
         # print("vc:",voice_content)
         voice_contents=voice_content.split(poem_insert)
         for i,vc in enumerate(voice_contents):
-            new_vc=vc.replace(poem_head, "").replace(poem_bottom, "").replace("\\", "")
+            new_vc=vc.replace(essay_head, "")
+            if i == 0:
+                new_vc="{}\n{}\n\n".format(title,author)+new_vc
+            xml_path="{}-{}.xml".format(new_title,i+1)
+            with open(xml_path,"a",encoding="utf-8") as f:
+                ap=xml_pack(new_vc)
+                f.write(ap)
+            audio_path="{}-{}.mp3".format(new_title,i+1)
+            os.system(audio_comm_patt.format(tts_py_path,audio_path,audio_path))
             new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
             voice_contents[i]=new_vc
     page_sep=""
     voice_contents_s=page_sep.join(voice_contents)
-    voice_contents_s="{}\n{}\n\n".format(title,author)+voice_contents_s
+    # voice_contents_s="{}\n{}\n\n".format(title,author)+voice_contents_s
     with open("voice.txt","w",encoding="utf-8") as f:
         f.write(voice_contents_s)
     shutil.copyfile("voice.txt", "records/{}/voice.txt".format(record_name))
+    os.system("move *.xml  records/{}".format(record_name))
+    os.system("move *.mp3  records/{}".format(record_name))
+
+    os.chdir("records/{}".format(record_name))
+
+    simple_video_generate_path="D:/simple_video_generate"
+
+    os.system("copy *.pdf \"{}\"".format(simple_video_generate_path))
+    os.system("copy *.mp3 \"{}\"".format(simple_video_generate_path))
     print("done.")
     # os.system("cd ./text_files")

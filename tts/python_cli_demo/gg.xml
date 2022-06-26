@@ -1,0 +1,9 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        我无法评价自己的高中时代，无法评价那种生活。我尝试着给它赋予某种意义，但无论怎么做都像是自欺欺人。我也不能用通用的价值观来衡量那段时光。因为如果这样的话，结论必然是整个高中时代失败透顶。而这是我决无法接受的。因为一旦如此，那些狂热，那些投入，那些兴奋与激动都变得毫无意义。
+
+        所以，我把这权力交诸于每个看到这篇文章
+        </prosody>
+    </voice>
+</speak>
