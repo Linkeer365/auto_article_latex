@@ -11,6 +11,7 @@
 
 import re
 import os
+import shutil
 
 proper_essay_word_cnt=380
 proper_poem_line_cnt=16
@@ -43,7 +44,6 @@ def idx_comp(poem_or_essay,str,idx1,idx2):
 
 def process(poem_or_essay,filename):
     if poem_or_essay == "essay":
-        print("here")
         with open ("./text_files/{}.txt".format(filename), "r", encoding="utf-16-le") as f:
             full_article_str = f.read ()
         head_idx=0
@@ -122,7 +122,20 @@ if __name__ == "__main__":
 
     with open("./text_files/output.tex","w", encoding="utf-8") as f:
         f.write(new_s4)
+    
+    record_name="{}-{}".format(title,author)
 
+    ori_dir=os.getcwd()
+    os.chdir("records")
+    os.mkdir(record_name)
+    os.chdir(record_name)
 
+    shutil.copyfile("../../text_files/{}.txt".format(filename),"{}.txt".format(title))
+    shutil.copyfile("../../text_files/output.tex","{}.tex".format(title))
 
+    os.chdir(ori_dir)
+    os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output* *.txt")
+    shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,title))
 
+    print("done.")
+    # os.system("cd ./text_files")
