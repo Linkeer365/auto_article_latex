@@ -5,21 +5,22 @@
 #
 # full_page_len=hans_count(full_page_str)
 # print("full page:",full_page_len)
-# # maxmimum: 442 字数
-
-## 诗歌数了一下大概最多是26行
 
 import re
 import os
 import shutil
 import sys
 
+# large 状态下经常出格，不知道怎么办才好
 proper_essay_word_cnt=380
-proper_poem_line_cnt=16
-essay_too_short=15
-poem_too_short=5
+proper_poem_line_cnt_firstpage=16
+proper_poem_line_cnt=21
+
+# essay_too_short=15
+# poem_too_short=5
 essay_word_per_line=23
-proper_essay_line_cnt=18
+proper_essay_line_cnt_firstpage=17
+proper_essay_line_cnt=23
 
 poem_or_essay=""
 
@@ -96,7 +97,7 @@ def process(poem_or_essay,filename):
         new_lines=[]
         for i,el in enumerate(essay_lines,1):
             print(el,"\t",i)
-            if i % proper_essay_line_cnt == 0:
+            if i - proper_essay_line_cnt_firstpage == 0 or (i - proper_essay_line_cnt_firstpage) % proper_essay_line_cnt == 0:
                 new_el=el+essay_insert
                 new_lines.append(new_el)
             else:
@@ -130,12 +131,12 @@ def process(poem_or_essay,filename):
         head_idx=0
         new_lines=[]
         for idx,line in enumerate(lines):
-            line=line.replace("\n"," \\\\\n")
+            line=line.replace("\n"," \\\\\n") if line!="\n" else line
             cnt=idx-head_idx
             new_lines.append(line)
-            if cnt >= proper_poem_line_cnt:
+            if cnt - proper_poem_line_cnt_firstpage == 0 or (cnt - proper_poem_line_cnt_firstpage) % proper_poem_line_cnt == 0:
                 new_lines.extend(poem_inserts)
-                head_idx=idx
+                # head_idx=idx
         new_lines_s="".join(new_lines)
         # print(new_lines_s)
         new_lines_s=poem_head+new_lines_s+poem_bottom
