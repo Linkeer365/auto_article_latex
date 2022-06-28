@@ -123,6 +123,8 @@ def process2(poem_or_essay,filename):
                 
             if idx in para_idxs or word=="\n":
                 article_line=full_article_str[last_idx:idx]
+                if idx in para_idxs:
+                    article_line=article_line+r" \par "
                 if not article_line in article_lines:
                     article_lines.append(article_line)
                 word_cnt=ori_word_cnt
@@ -139,7 +141,9 @@ def process2(poem_or_essay,filename):
         for i,al in enumerate(article_lines,1):
             print(al,"\t",i)
             if poem_or_essay == "poem":
-                al=al.replace("\n", "\\\\\n")
+                # print(al.find("\n\n"))
+                # al=al.replace("\n\n", r" \par ")
+                al=al.replace("\n", "\\\\\n") if al!="\n" else al
             if i - proper_article_line_cnt_firstpage == 0 or (i - proper_article_line_cnt_firstpage) % proper_article_line_cnt == 0:
                 new_al=al+article_insert
                 new_lines.append(new_al)
@@ -154,6 +158,13 @@ def process2(poem_or_essay,filename):
             # print(al,"\t"*3,i+1)
         # sys.exit(0)
         new_str="".join(new_lines)
+
+        new_str=new_str.replace("\\par \n\\\\", "\\\\ \n\n")
+        new_str=new_str.replace("\\par \\\\", "\\\\ \n\n")
+        new_str=new_str.replace("\n\\newpage\n\\\\", "\\\\\n\\newpage\n")
+
+        # new_str.replace(" \par ", "\n\n")
+        
 
         # new_str=article_head+new_str+article_bottom
         # with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
