@@ -159,9 +159,11 @@ def process2(poem_or_essay,filename):
         # sys.exit(0)
         new_str="".join(new_lines)
 
+        # 前三个是给poem的，最后一个是给essay 的
         new_str=new_str.replace("\\par \n\\\\", "\\\\ \n\n")
         new_str=new_str.replace("\\par \\\\", "\\\\ \n\n")
         new_str=new_str.replace("\n\\newpage\n\\\\", "\\\\\n\\newpage\n")
+        new_str=new_str.replace("\\par \n", "\n\n")
 
         # new_str.replace(" \par ", "\n\n")
         
@@ -299,7 +301,7 @@ if __name__ == "__main__":
     # 2022年6月27日 22:52:24 诗歌体的居中就是纯纯sb，每行的字数从9-11字不等你让我玩毛？
     title=input("题目:")
     author=input("作者:")
-    date=input("日期:(英文空格隔开)").replace(" ","-")
+    date=input("日期:（英文空格隔开）（都没有就直接回车）").replace(" ","-")
     pe=input("p or e (poem or essay):")
     if pe == "e":
         # print("e")
@@ -308,6 +310,7 @@ if __name__ == "__main__":
         # print("p")
         poem_or_essay = "poem"
     filename=input("filename:")
+    url=input("网页链接：（最好是archive后的）")
     # filename="ee"
     print(poem_or_essay)
     process2(poem_or_essay,filename)
@@ -322,8 +325,14 @@ if __name__ == "__main__":
     
     # print("\n\nContent:{}".format(content))
 
+    url_str="\\footnote{Click to View:\\url{"+url+"}"+"}"
+
+    title_str=title+url_str
+
+    print(title)
+
     new_s=lines_s
-    new_s1=new_s.replace("<Your-Title>",title)
+    new_s1=new_s.replace("<Your-Title>",title_str)
     # print(new_s1)
     new_s2=new_s1.replace("<Your-Author>",author)
     new_s3=new_s2.replace("<Your-Date>",date)
@@ -350,7 +359,7 @@ if __name__ == "__main__":
     os.chdir(ori_dir)
     if os.path.exists("output.pdf"):
         os.remove("output.pdf")
-    os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output*")
+    os.system("cd ./text_files && xelatex -interaction=nonstopmode output.tex && move output.pdf ../ && del output*")
     # os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ ")
     print("jans?")
     try:
