@@ -110,6 +110,7 @@ def process2(poem_or_essay,filename):
         print(para_idxs)
         cur_line=""
         ori_word_cnt=word_cnt
+        print(full_article_str)
         for idx,word in enumerate(full_article_str):
             word_cnt+=1
             cur_line+=word
@@ -120,7 +121,7 @@ def process2(poem_or_essay,filename):
                 last_idx=idx
                 cur_line=""
                 
-            if idx in para_idxs:
+            if idx in para_idxs or word=="\n":
                 article_line=full_article_str[last_idx:idx]
                 if not article_line in article_lines:
                     article_lines.append(article_line)
@@ -136,23 +137,41 @@ def process2(poem_or_essay,filename):
         
         new_lines=[]
         for i,al in enumerate(article_lines,1):
-            # print(al,"\t",i)
+            print(al,"\t",i)
+            if poem_or_essay == "poem":
+                al=al.replace("\n", "\\\\\n")
             if i - proper_article_line_cnt_firstpage == 0 or (i - proper_article_line_cnt_firstpage) % proper_article_line_cnt == 0:
                 new_al=al+article_insert
                 new_lines.append(new_al)
             else:
                 new_lines.append(al)
         
-        for i,al in enumerate(new_lines):
-            if poem_or_essay=="poem":
-                if not article_insert in al and al!="\n":
-                    new_al=al.replace("\n"," \\\\\n") if  al!="\n" else al
-                    new_lines[i]=new_al
+        # for i,al in enumerate(new_lines):
+        #     # if poem_or_essay=="poem":
+        #     #     if hans_count(al)!=0:
+        #             new_al=al.replace("\n"," \\\\\n") if  al!="\n" else al
+        #             new_lines[i]=new_al
             # print(al,"\t"*3,i+1)
-
+        # sys.exit(0)
         new_str="".join(new_lines)
 
-        print(new_lines[0:20])
+        # new_str=article_head+new_str+article_bottom
+        # with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
+        #     f.write(new_str)
+        # sys.exit(0)
+
+        # if poem_or_essay == "poem":
+        #     para_idxs=[]
+        #     print("para-idx:",para_idxs)
+        #     new_lines2=new_str.split("\n")
+        #     for i,nl2 in enumerate(new_lines2):
+        #         if hans_count(nl2)>0:
+        #             new_nl2=nl2+" \\\\\n"
+        #             new_lines2[i]=new_nl2
+        #         if i in para_idxs:
+        #             new_lines2[i]=new_lines2[i]+"\n\n"
+        #     new_str="".join(new_lines2)
+        # print(new_lines[0:20])
         #     print(el,"\t",i)
         # print(repr(essay_lines[35]),repr(essay_lines[36]),repr(essay_lines[37]),sep="\n")
         # sys.exit(0)
@@ -169,6 +188,8 @@ def process2(poem_or_essay,filename):
         new_str=article_head+new_str+article_bottom
         with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
             f.write(new_str)
+        
+        # sys.exit(0)
 
 # # def process(poem_or_essay,filename):
 #     if poem_or_essay == "essay":
@@ -288,7 +309,7 @@ if __name__ == "__main__":
     with open("./text_files/{}-2.txt".format (filename), "r", encoding="utf-8") as f:
         content=f.read()
     
-    print("\n\nContent:{}".format(content))
+    # print("\n\nContent:{}".format(content))
 
     new_s=lines_s
     new_s1=new_s.replace("<Your-Title>",title)
@@ -316,13 +337,23 @@ if __name__ == "__main__":
     shutil.copyfile("../../text_files/output.tex","{}.tex".format(new_title))
 
     os.chdir(ori_dir)
-    # os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output* *-2.txt")
-    os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ ")
-    shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,new_title))
+    if os.path.exists("output.pdf"):
+        os.remove("output.pdf")
+    os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ && del output*")
+    # os.system("cd ./text_files && xelatex output.tex && move output.pdf ../ ")
+    print("jans?")
+    try:
+        shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,new_title))
+    except FileNotFoundError:
+        shutil.copyfile("./text_files/output.pdf", "output.pdf")
+        os.system("cd ./text_files && del output*")
+        shutil.copyfile("output.pdf", "records/{}/{}.pdf".format(record_name,new_title))
 
     shutil.copyfile("output.pdf", "D:/Alldowns/{}.pdf".format(new_title))
 
-    sys.exit(0)
+    print("jsbd")
+
+    # sys.exit(0)
     
     # voice 
 
@@ -330,39 +361,46 @@ if __name__ == "__main__":
 
     audio_comm_patt="python \"{}\" --input \"{}\" --output \"{}\""
     if poem_or_essay == "essay":
-        voice_contents=voice_content.split(essay_insert)
-        for i,vc in enumerate(voice_contents):
-            new_vc=vc.replace(essay_head, "")
-            print(new_vc)
-            # os._exit(0)
-            if i == 0:
-                new_vc="{}\n{}\n\n".format(title,author)+new_vc
-            xml_path="{}-{}.xml".format(new_title,i+1)
-            with open(xml_path,"w",encoding="utf-8") as f:
-                ap=xml_pack(new_vc)
-                f.write(ap)
-            audio_path="{}-{}".format(new_title,i+1)
-            audio_comm=audio_comm_patt.format(tts_py_path,xml_path,audio_path)
-            print("audio comm:",audio_comm)
-            os.system(audio_comm)
-
-            new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
-            voice_contents[i]=new_vc
+        article_insert=essay_insert
+        article_head=essay_head
     elif poem_or_essay == "poem":
-        # print("vc:",voice_content)
-        voice_contents=voice_content.split(poem_insert)
-        for i,vc in enumerate(voice_contents):
-            new_vc=vc.replace(poem_head, "").replace(r" \\", "")
-            if i == 0:
-                new_vc="{}\n{}\n\n".format(title,author)+new_vc
-            xml_path="{}-{}.xml".format(new_title,i+1)
-            with open(xml_path,"a",encoding="utf-8") as f:
-                ap=xml_pack(new_vc)
-                f.write(ap)
-            audio_path="{}-{}.mp3".format(new_title,i+1)
-            os.system(audio_comm_patt.format(tts_py_path,xml_path,audio_path))
-            new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
-            voice_contents[i]=new_vc
+        article_insert=poem_insert
+        article_head=poem_head
+    voice_contents=voice_content.split(article_insert)
+    for i,vc in enumerate(voice_contents):
+        new_vc=vc.replace(article_head, "")
+        if r"\\" in new_vc:
+            new_vc=new_vc.replace(r"\\", "")
+        print(new_vc)
+        # os._exit(0)
+        if i == 0:
+            new_vc="{}\n{}\n\n".format(title,author)+new_vc
+        xml_path="{}-{}.xml".format(new_title,i+1)
+        with open(xml_path,"w",encoding="utf-8") as f:
+            ap=xml_pack(new_vc)
+            f.write(ap)
+        audio_path="{}-{}".format(new_title,i+1)
+        audio_comm=audio_comm_patt.format(tts_py_path,xml_path,audio_path)
+        print("audio comm:",audio_comm)
+        os.system(audio_comm)
+
+        new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
+        voice_contents[i]=new_vc
+    # elif poem_or_essay == "poem":
+    #     # print("vc:",voice_content)
+    #     voice_contents=voice_content.split(poem_insert)
+    #     for i,vc in enumerate(voice_contents):
+    #         new_vc=vc.replace(poem_head, "").replace(r" \\", "")
+    #         if i == 0:
+    #             new_vc="{}\n{}\n\n".format(title,author)+new_vc
+    #         xml_path="{}-{}.xml".format(new_title,i+1)
+    #         with open(xml_path,"a",encoding="utf-8") as f:
+    #             ap=xml_pack(new_vc)
+    #             f.write(ap)
+    #         audio_path="{}-{}.mp3".format(new_title,i+1)
+    #         os.system(audio_comm_patt.format(tts_py_path,xml_path,audio_path))
+    #         new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
+    #         voice_contents[i]=new_vc
     page_sep=""
     voice_contents_s=page_sep.join(voice_contents)
     # voice_contents_s="{}\n{}\n\n".format(title,author)+voice_contents_s

@@ -1,0 +1,25 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        ppllj
+jwnzh
+
+\setlength\parindent{0pt}
+
+﻿虽然道对所有人都是共同的，但大多数人活着，仿佛\\
+每个人对此都有自己独特的理解。\\
+向上的路和向下的路是一样的。——赫拉克利特\\
+\\
+1. 时间现在和时间过去\\
+也许都存在于时间将来，\\
+时间将来包容于时间过去。\\
+如果时间永远都是现在，\\
+所有的时间都不能得到拯救。\\
+那本来可能发生的事是一种抽象，\\
+始终只是在一个思辨的世界中\\
+一种永恒的可能性。\\
+那本来可能发生的和已经发生的\\
+都指向一个终结，终结永远是现在。
+        </prosody>
+    </voice>
+</speak>
