@@ -1,0 +1,9 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        白沫，倒在地上。校医来来了，喊她，久久不醒。 
+
+后来，李鸽还是活了。一切都大白，因为群众是真正的英雄。三个人都受了处分，李鸽的医疗费由教育局“特事特办”地予以解决。史公长从此滋生了种恶习——骂人，挨了好几回批评都改不掉。
+        </prosody>
+    </voice>
+</speak>

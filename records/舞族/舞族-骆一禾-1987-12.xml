@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+在黑暗的王国里
+考验着我的思想还有多少欢乐和诚信
+这是前往黑大陆唯一的步伐
+拖走铁链
+这是唯一孤独的炅魂
+在围歼里
+死于活人，活着的人们
+奢谈死亡
+活着的人们设想平庸的死亡
+为围歼而生
+
+为偶像而死  
+
+
+我诅咒你们！  
+
+
+伟大的舞族在此去的路上
+不会再于拱廊下躲雨
+他们的欢乐也不会被细雨中的急风
+抽打得躲藏起来
+他们不再去看
+名城里的彩旗湿漉漉地垂在旗杆上
+他们不会再冒着雨舞蹈而来
+        </prosody>
+    </voice>
+</speak>

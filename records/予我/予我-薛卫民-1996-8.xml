@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+灌溉着湖畔不知如何而哭之草
+苍生之苦
+浸润着远方不知如何而忧之木
+不泻之盐
+已溶于挥湖而去的过客之血
+不释之卤
+
+已泛上逶迤它方的旅人之途  
+
+
+予我咸湖!
+予我咸湖浩渺中一片蔚蓝如初
+予我至洁至纯之素
+予我朗日下一群天鹅踏虹而舞
+
+予我至欢至乐之故  
+
+
+7、予我天空
+予我不敢直视的太阳
+
+和那些婴儿般高贵的面庞  
+
+
+予我天空
+予我夤夜沐浴灵魂的月光
+予我幸福的宁静
+        </prosody>
+    </voice>
+</speak>

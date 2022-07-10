@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+“他散步去了，大概要一个多小时。”小蟋蟀
+说。 
+
+
+“他回来之前我得离开这儿。” 
+
+
+“当然。除非你不想活了。” 
+
+
+“还是你们好，可以躲在桌子底下。” 
+
+“你也可以躲在桌子低下呀，你干吗老忍不住
+想飞呢？” 
+
+“有翅膀的东西都想飞，不然要翅膀干什么？
+有翅膀不能飞比死还难受。” 
+
+
+“笼子里的鸟不是活的挺好吗？” 
+
+
+“那叫活？” 
+
+
+“……不叫。” 
+
+        </prosody>
+    </voice>
+</speak>

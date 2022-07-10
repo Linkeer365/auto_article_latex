@@ -1,0 +1,15 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        学不会的词。他是一个行动的诗人，从荒芜的世界中催发出生命的激情是他真正的事业，他根本不会被易朽的事物迷惑。对他来讲，未能活着带领希腊走向光明或许才是最值得伤感的。他明白，哪怕是青草微弱的生命，也会映射出作为人类创造物的诗歌之廉价。拜伦以对诗歌的真诚和对生活的真诚，而无愧于自己
+诗人的称号： 
+
+
+　　任文坛上的贩夫走卒去争执吧， 
+
+
+
+　　反正我坟头的青草将悠久地 \par 　　对夜风叹息，而我的歌早已沉寂。
+        </prosody>
+    </voice>
+</speak>

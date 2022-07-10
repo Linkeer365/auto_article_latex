@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+百劫依存的巨舸
+予我嘹亮远方的雄鸡之展歌
+予我隔世的梅朵
+在伸手可及的溪中洗濯
+予我伸出典籍的苤苢
+
+重泛一季灿灿的绿色  
+
+
+2、永无宁日之日出
+漆红凿满谶语的列列岩壁
+永无宁夜之月落
+
+倾倒江海斟注高攀的盟榼  
+
+
+予我历历可见
+望穿石人之眼的逝者
+逝者携长萧而去
+长萧不作悲声
+
+长萧吹青青的竹林万旌齐扯  
+
+
+予我劈面而遇
+撞痛嫣红天宇的来者
+来者挥雁而至
+        </prosody>
+    </voice>
+</speak>

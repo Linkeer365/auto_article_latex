@@ -1,0 +1,36 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+我无籁以应
+
+潮汐逝去唤我之声  
+
+
+只在迷茫中
+瞩望漂移之岛屿举月为灯
+只有孤寂时
+
+倾听沉默之石钟旷世永鸣  
+
+
+6、予我咸湖!
+予我咸湖盈盈居于高原
+与冰山雪原之水相呼
+予我咸湖不逐轻浮而歌之水
+四通八达时
+
+宁择无路——  
+
+
+积多少众神之泪
+积多少苍生之苦
+积多少不泻之盐
+
+积多少不释之卤  
+
+
+众神之泪
+        </prosody>
+    </voice>
+</speak>

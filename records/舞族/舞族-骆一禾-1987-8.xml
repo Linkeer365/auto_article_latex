@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+成千个无名的画家都画下过同样的双手
+它伸出沼泽
+朝向阒寂的天空
+这是生命一次次注入会死之躯的噴射
+也是生命之躯对死亡作出的召喚
+这呼唤比死亡更为猛烈
+生死是一样的颤抖
+为什么生命的底色
+
+像血一样深红？  
+
+
+跳舞族之舞的舞蹈家
+你天真而狂热
+不论他们是草原上的母亲
+帕索多布里舞中的撞动
+弗拉明戈脚下的麦种
+或是我母校里
+为这生命之舞换上新鞋的生
+或我母校里
+为这生命之舞换上新鞋的女生
+他们是
+往复于天空和土地之间最年轻的人
+        </prosody>
+    </voice>
+</speak>

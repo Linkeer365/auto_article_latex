@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+屏幕上出现了一个五彩缤纷的世界。作家在这
+个世界上创造另一个五彩缤纷的世界。 
+
+
+小蜜蜂兴奋得飞到电脑屏幕前手舞足蹈。 
+
+作家看见小蜜蜂后皱眉头，他一低头，又看见
+了地上的小蟋蟀。他站起来去另一个房间。 
+
+“他去拿杀咱们的喷雾剂！”小蟋蟀警告小蜜
+蜂。 
+
+
+“你快跑！”小蜜蜂对小蟋蟀说。 
+
+“不，我要和你在一起。”小蟋蟀舍不得小蜜
+
+
+“犯傻？” 
+
+“投了这个胎已经傻到家了，早结束早转世。
+”小蟋蟀说。 
+
+“你说得对，不用他杀咱们，咱们自己结束。
+        </prosody>
+    </voice>
+</speak>

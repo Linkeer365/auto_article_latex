@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+那不可遏止的汹涌
+浮幽魂为岛屿
+那涵日溶月的平静
+
+沉岁月为石钟  
+
+
+总有拍岸之声拍得天动地动
+总有撞陆之声撞起叠叠山峰
+而天虽动地虽动
+路径仍在向远行
+而山虽起峰虽起
+
+花上的蝴蝶不惊  
+
+
+让我在极乐时沉重
+让我在炼狱里轻松
+让我听见
+砾石之痕声声呼痛
+
+黄昏却呈一片娩后的安宁……  
+
+
+予我翰海!
+我无阔以盛
+翰海浩浩汤汤之水
+        </prosody>
+    </voice>
+</speak>

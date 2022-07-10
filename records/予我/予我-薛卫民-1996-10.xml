@@ -1,0 +1,20 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+一滴闪烁的露水
+何以会悬垂千年
+一穗陨落的籽粒
+
+何以会代代繁衍  
+
+
+予我无法遗忘的童话
+讲述童话的声音
+使用着不断成长的语言——
+一个人追山
+山永远在他的前边
+他撞上的山都不是山他撞上的总是他投宿的那家客店的门板……
+        </prosody>
+    </voice>
+</speak>

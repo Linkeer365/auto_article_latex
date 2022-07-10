@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+在那些卓尔跳日的美人手中
+她怒放的菊堇里
+有着那样无辜的阳光
+
+和汗水  
+
+
+一条白色尘土盖的大路上
+舞族的幻想家
+扬起大块的布匹
+彩绘下迈动着
+我们曾以白垩涂过的
+高贵的腿
+
+美丽的双脚  
+
+
+一个平展着红布的
+目光清彻的盲歌手
+我要称他是勇士
+一个画衣服为生的女神
+梳着她漆黑的长头发
+那长发画衣是火焰
+时代的眼晴血红了，而他们
+
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,26 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        舞族
+骆一禾
+
+﻿太阳洒满了尘土飞扬的道路
+白茫茫的尘土
+始终缠绕在欢乐酌人们脚下
+
+一直漫延到大路尽头  
+
+
+那里
+一支欢乐的歌子叩打着沉重的铁索
+使他们身体成行地开裂
+直上空气清新的山冈
+在这些流血的人们脸上
+我看到的是希望
+希望这铁索的尽头只有我
+希望我不因他们
+而感到羞耻
+我就这样行了
+        </prosody>
+    </voice>
+</speak>

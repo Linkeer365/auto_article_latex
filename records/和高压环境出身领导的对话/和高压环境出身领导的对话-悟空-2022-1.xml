@@ -1,0 +1,28 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        和高压环境出身领导的对话
+悟空
+
+
+﻿A：“L总好，办公室的椅子坏了。” 
+
+
+L：“嗯？~你这话什么意思？？？” 
+
+A：“哦~没什么，就是办公室的椅子坏了，
+要处理掉了……” 
+
+
+L：“那你的意思是说这个椅子有问题。” 
+
+
+A：“对，椅子坏了，轮子掉了。” 
+
+L：“哦~那我问你，椅子坏了你为什么要告
+诉我？” 
+
+
+        </prosody>
+    </voice>
+</speak>

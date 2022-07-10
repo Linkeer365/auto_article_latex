@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+这就是说我的头颅是高贵的
+
+我的产物也应该高贵  
+
+
+6. 你有两只手
+两只勤劳的手
+你有两只乌黑的眼睛
+你有一条修长的身体
+宛若一束桃花
+一尾流水似的桃花鱼
+正跳跃在你的心里
+你说话的时候
+有十七种奇怪的声音
+你所使用的是和我不一样的声音
+而当你对我说话的时候
+我觉得它很动听十分美丽
+你把我们的孩子叫做泰山
+一座会跳的泰山
+有脚的泰山
+
+长着一个黑黑的鼻子 
+
+
+        </prosody>
+    </voice>
+</speak>

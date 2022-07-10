@@ -1,0 +1,28 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        予我
+薛卫民
+
+﻿1、予我
+
+予我茫然四顾无所不在的天高地阔……  
+
+
+掠世的浩浩长风
+鼓荡滔滔的不羁之水汇成江河
+予我撕裂旷野的奔涌淹向七月的流火
+
+予我五千年大雨中滂沱的雩歌  
+
+
+广袤的黑土黄土红土
+隆起宿命的原色
+予我震动大地的鼓乐逐向天边的漂泊
+予我五千年尘土飞扬中的情歌
+予我无径抵达的新陆
+予我彼岸椰林的婆娑
+予我千重波涛下
+        </prosody>
+    </voice>
+</speak>

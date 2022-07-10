@@ -1,0 +1,7 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        时刻，从一开始到现在他们时时都从自己的圣徒们那里听到关于自己这个上帝基督的事，这些圣徒为人民而活着，为捍卫俄罗斯的土地而斗争，直至献出生命，人民直到今天还崇敬自己那些圣徒，铭记着他们的名字，在他们的墓前祈祷。请相信，在这个意义上我们人民的最落后的部分所受的教养远远超出你们所想象的，这是由于你们在教养上对他们一无所知，而且有可能，他们比你们自己更有教养，尽管你们学习过义手册。
+        </prosody>
+    </voice>
+</speak>

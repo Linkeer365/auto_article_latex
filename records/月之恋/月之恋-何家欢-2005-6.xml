@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+猴子失神地望着月亮，嘴角边开始飞出一串串的气泡，看见它们不断地上升，不断地破裂无数的绝
+望，溢散开来，模糊了他的视线。 
+
+
+猴子闭上眼，咽下了想要说出口的两个字。 他想说：老树。
+        </prosody>
+    </voice>
+</speak>

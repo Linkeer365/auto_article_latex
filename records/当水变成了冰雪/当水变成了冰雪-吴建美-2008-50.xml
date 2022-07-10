@@ -1,0 +1,11 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+天空中竟洋洋洒洒地飘起雪来。一颗流星疾驰而过，光芒在瞬间绽放。天一蹲在桥上，双手扶着栏杆，对着被雪装点得闪闪发亮的河面喊道：“流流，
+你看到流星了吗？” 
+
+
+        </prosody>
+    </voice>
+</speak>

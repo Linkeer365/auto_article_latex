@@ -43,6 +43,7 @@ poem_head=open("./stable/poem_head.txt","r",encoding="utf-8").read()
 poem_bottom=open("./stable/poem_bottom.txt","r",encoding="utf-8").read()
 
 poem_insert=essay_insert
+# poem_insert=open("./stable/poem_insert3.txt","r",encoding="utf-8").read()
 poem_head="\setlength\parindent{0pt}\n\n"+essay_head
 poem_bottom=""
 
@@ -96,74 +97,80 @@ def process2(poem_or_essay,filename):
         # proper_article_line_cnt_firstpage=proper_article_line_cnt_firstpage
         # proper_article_line_cnt=proper_article_line_cnt
 
-    with open ("./text_files/{}.txt".format(filename), "r", encoding="utf-16-le") as f:
-        full_article_str = f.read ()
-        head_idx=0
-        
-        # idxs=[]
-        new_str=""
-        para_idxs=[m.start() for m in re.finditer('\n\n', full_article_str)]
+    try:
+        with open ("./text_files/{}.txt".format(filename), "r", encoding="utf-16-le") as f:
+            full_article_str = f.read ()
+    except Exception:
+        with open ("./text_files/{}.txt".format(filename), "r", encoding="utf-8") as f:
+            full_article_str = f.read ()
+    head_idx=0
+    
+    # idxs=[]
+    new_str=""
+    para_idxs=[m.start() for m in re.finditer('\n\n', full_article_str)]
 
-        # 开头空两格
-        article_lines=[]
-        last_idx=0
-        print(para_idxs)
-        cur_line=""
-        ori_word_cnt=word_cnt
-        print(full_article_str)
-        for idx,word in enumerate(full_article_str):
-            word_cnt+=1
-            cur_line+=word
-            # print(cur_line)
-            if word_cnt % article_word_per_line == 0:
-                article_line=full_article_str[last_idx:idx]
-                article_lines.append(article_line)
-                last_idx=idx
-                cur_line=""
-                
-            if idx in para_idxs or word=="\n":
-                article_line=full_article_str[last_idx:idx]
-                if idx in para_idxs:
-                    article_line=article_line+r" \par "
-                if not article_line in article_lines:
-                    article_lines.append(article_line)
-                word_cnt=ori_word_cnt
-                last_idx=idx
-                cur_line=""
-        
-        if cur_line!="":
-            print("bottom:",cur_line)
-            # 尾部的人赶紧上车
-            article_line=cur_line
+    # 开头空两格
+    article_lines=[]
+    last_idx=0
+    print(para_idxs)
+    cur_line=""
+    ori_word_cnt=word_cnt
+    print(full_article_str)
+    for idx,word in enumerate(full_article_str):
+        word_cnt+=1
+        cur_line+=word
+        # print(cur_line)
+        if word_cnt % article_word_per_line == 0:
+            article_line=full_article_str[last_idx:idx]
             article_lines.append(article_line)
-        
-        new_lines=[]
-        for i,al in enumerate(article_lines,1):
-            print(al,"\t",i)
-            if poem_or_essay == "poem":
-                # print(al.find("\n\n"))
-                # al=al.replace("\n\n", r" \par ")
-                al=al.replace("\n", "\\\\\n") if al!="\n" else al
-            if i - proper_article_line_cnt_firstpage == 0 or (i - proper_article_line_cnt_firstpage) % proper_article_line_cnt == 0:
-                new_al=al+article_insert
-                new_lines.append(new_al)
-            else:
-                new_lines.append(al)
-        
-        # for i,al in enumerate(new_lines):
-        #     # if poem_or_essay=="poem":
-        #     #     if hans_count(al)!=0:
-        #             new_al=al.replace("\n"," \\\\\n") if  al!="\n" else al
-        #             new_lines[i]=new_al
-            # print(al,"\t"*3,i+1)
-        # sys.exit(0)
-        new_str="".join(new_lines)
+            last_idx=idx
+            cur_line=""
+            
+        if idx in para_idxs or word=="\n":
+            article_line=full_article_str[last_idx:idx]
+            if idx in para_idxs:
+                article_line=article_line+r" \par "
+                article_lines.append("\n")
+            if not article_line in article_lines:
+                article_lines.append(article_line)
+            word_cnt=ori_word_cnt
+            last_idx=idx
+            cur_line=""
+    
+    if cur_line!="":
+        print("bottom:",cur_line)
+        # 尾部的人赶紧上车
+        article_line=cur_line
+        article_lines.append(article_line)
+    
+    new_lines=[]
+    for i,al in enumerate(article_lines,1):
+        print(al,"\t",i)
+        if poem_or_essay == "poem":
+            # print(al.find("\n\n"))
+            # al=al.replace("\n\n", r" \par ")
+            al=al.replace("\n", "\\\\\n") if al!="\n" else al
+        if i - proper_article_line_cnt_firstpage == 0 or (i - proper_article_line_cnt_firstpage) % proper_article_line_cnt == 0:
+            new_al=al+article_insert
+            new_lines.append(new_al)
+        else:
+            new_lines.append(al)
+    
+    # for i,al in enumerate(new_lines):
+    #     # if poem_or_essay=="poem":
+    #     #     if hans_count(al)!=0:
+    #             new_al=al.replace("\n"," \\\\\n") if  al!="\n" else al
+    #             new_lines[i]=new_al
+        # print(al,"\t"*3,i+1)
+    # sys.exit(0)
+    new_str="".join(new_lines)
 
-        # 前三个是给poem的，最后一个是给essay 的
-        new_str=new_str.replace("\\par \n\\\\", "\\\\ \n\n")
-        new_str=new_str.replace("\\par \\\\", "\\\\ \n\n")
-        new_str=new_str.replace("\n\\newpage\n\\\\", "\\\\\n\\newpage\n")
-        new_str=new_str.replace("\\par \n", "\n\n")
+    # 前三个是给poem的，最后一个是给essay 的
+    new_str=new_str.replace("\\par \n\\\\", "\\\\ \n\n")
+    new_str=new_str.replace("\\par \\\\", "\\\\ \n\n")
+    new_str=new_str.replace("\n\\newpage\n\\\\", "\\\\\n\\newpage\n")
+    new_str=new_str.replace("\\par \n", "\n\n")
+    new_str=new_str.replace("\\par ", "\n\n")
 
         # new_str.replace(" \par ", "\n\n")
         
@@ -198,9 +205,9 @@ def process2(poem_or_essay,filename):
         #         # idxs.append(idxs)
         #         head_idx=idx
         # sys.exit(0)
-        new_str=article_head+new_str+article_bottom
-        with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
-            f.write(new_str)
+    new_str=article_head+new_str+article_bottom
+    with open("./text_files/{}-2.txt".format(filename),"w",encoding="utf-8") as f:
+        f.write(new_str)
         
         # sys.exit(0)
 

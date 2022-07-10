@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+被一日的春风吹动
+微微地飘卷
+
+一如孤独的长发  
+
+
+我和我捡来的妻子
+穿着花布衣服的妻子
+一样欢欣
+我们要一起上路了
+没什么可以收拾的她收拾着自己的双手
+
+昨夜她曾经失声痛哭  
+
+
+那一缕孤独的光线
+照耀着她的国土
+乌黑的头发长长地沉睡在她的脚边
+她是个贫穷的女王
+住在自己干净的窗子上面
+
+她是和平神祇  
+
+
+5. 哦我的短暂的
+迅速流逝的神祇
+我的头发女王
+        </prosody>
+    </voice>
+</speak>

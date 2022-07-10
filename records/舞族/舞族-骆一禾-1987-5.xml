@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+它穿过八线并行的铁路两旁
+零落着茬口的小屋
+它穿过灰色的积土上开裂的
+大地的伤口
+一座座名城就耸立在巨大的伤口
+闪过波涛紫红的叶脉
+一大群白色灯光
+就在那里温惋地照耀
+它属于那些
+提着脑袋走遍世界的人们
+抚摸着疲劳的双眼彻底收割的人们
+和在大街上仰首看望光明
+
+扶着双腿走过运动场而痛苦的人们  
+
+
+这舞族迎向钴蓝色的夭空
+在九月
+在欢乐的面颊上
+可怕地投下了动人的黄色房屋
+生的城，死的城
+滚滚的麦子一直长到围墙边
+乡村历历在目
+        </prosody>
+    </voice>
+</speak>
