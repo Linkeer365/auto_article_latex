@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+吉先生：你让我抱一抱！（释其手，作欲抱状
+
+
+余小姐：（走开）等你再生病的时候。 
+
+吉先生：不过我母亲都告诉我，说你已经答应
+了做她的侄媳妇，那怎么办？ 
+
+
+余小姐：（得意）那没有什么，我的父母不愿
+意我嫁给医生！ 
+
+吉先生：对，我知道，我们是天生的说谎一对
+！（趁其不备，双手抱之） 
+
+余小姐：（失声大喊）喔！（老太太由右门，
+仆人由左门，同时惊慌入，吉已释手） 
+
+吉老太太：什么事，什么事？（余以一手掩面
+，面红不知所言） 
+
+吉先生：（走至余前，将余手取下，视其面）
+        </prosody>
+    </voice>
+</speak>

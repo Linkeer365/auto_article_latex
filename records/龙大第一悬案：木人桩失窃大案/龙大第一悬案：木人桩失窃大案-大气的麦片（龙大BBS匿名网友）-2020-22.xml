@@ -1,0 +1,36 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+“谁挑选、联络的供应商？” 
+
+
+
+“谁大把大把地花学校的钱？” 
+
+
+“吉他、贝斯、钢琴、架子鼓、音箱需要除湿
+吗？” 
+
+
+“需要啊。” 
+
+
+“有人做除湿工作吗？” 
+
+
+“没有啊。” 
+
+
+“设备不论谁用，都有可能坏掉对吧？” 
+
+
+“就是啊。” 
+
+
+“有人负责检修吗？” 
+
+
+        </prosody>
+    </voice>
+</speak>

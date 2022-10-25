@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+
+太太：······病得非常的厉害。医生说，如果今天晚上要不发生变故，或者有几分希望，不
+然，恐怕有点危险。 
+
+
+原：他们要把他枪毙，是不是？ 
+
+
+太太：甚么？我不懂你的意思。 
+
+原：这不是我的意思，这是那字条儿上的意思
+。（手指桌上的字条。） 
+
+太太：字条儿？（取了字条，读了一遍，其初略有为难之色，但立刻转为镇静，露出笑容。）啊。
+
+
+任：（跳起，粗鲁的把她拉住。）你是谁？ 
+
+
+太太：我？我是你的太太。 
+
+原：不错，问题是：是个男太太，还是个女太
+        </prosody>
+    </voice>
+</speak>

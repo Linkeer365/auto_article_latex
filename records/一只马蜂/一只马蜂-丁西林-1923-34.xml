@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+天，转不过弯来，要露出马脚来。 
+
+
+余小姐：我向来不欢喜说话。 
+
+吉先生：好吧，白说是没有用的。我问你一件
+
+
+余小姐：什么事？ 
+
+
+吉先生：老太太替你做媒没有？ 
+
+
+余小姐：（着急）你不应该问这句话。 
+
+
+吉先生：为什么不应该？ 
+
+余小姐：因为这一类的话，连自己的父兄都不
+应该问，朋友更加不应该。 
+
+吉先生：喔，新文化！新文化！不过你知道不知道？一个人的婚事，从前，是父母专制，现在因为用不着父母去管，所以用不着父母去问。（吉先生的一件，以为婚姻的事如果不要人帮忙则已，如要帮忙
+        </prosody>
+    </voice>
+</speak>

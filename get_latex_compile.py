@@ -10,6 +10,7 @@ import re
 import os
 import shutil
 import sys
+import time
 
 # large 状态下经常出格，不知道怎么办才好
 # 试过多次是这个16 21 最合适
@@ -409,8 +410,16 @@ if __name__ == "__main__":
         audio_path="{}-{}".format(new_title,i+1)
         audio_comm=audio_comm_patt.format(tts_py_path,xml_path,audio_path)
         print("audio comm:",audio_comm)
-        os.system(audio_comm)
-
+        cnt=0
+        while True:
+            res=os.system(audio_comm)
+            if res==0:
+                break
+            elif res==1:
+                sleep_time=2+2*cnt
+                time.sleep(sleep_time)
+                print("=== \nsleep {}s.\n===\n".format(sleep_time))
+                cnt+=1
         new_vc="\n\n\n          === Page {} ===                     \n\n\n".format(i+1)+new_vc
         voice_contents[i]=new_vc
     # elif poem_or_essay == "poem":

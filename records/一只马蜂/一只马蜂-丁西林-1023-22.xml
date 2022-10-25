@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+吉老太太：喔，这是你自己的事，总得你自己
+做主。 
+
+余小姐：老太太的意思，如果觉得很好，那自
+然不会有错。 
+
+
+吉老太太：那我就说你很愿意？ 
+
+余小姐：不过我想总得写一封信回去，问问父
+母的意思。 
+
+吉老太太：不错，不错，自然应该这样。那你
+就写封信回去，等你接到家里回信之后，再说吧。 
+
+余小姐：我想单由我写信去，还不十分妥当。
+
+
+吉老太太：那有什么不好？ 
+
+余小姐：可以不可以请吉先生写一封详细的信，把老太太的意思告诉我家里，我再另外写一封，一
+
+        </prosody>
+    </voice>
+</speak>

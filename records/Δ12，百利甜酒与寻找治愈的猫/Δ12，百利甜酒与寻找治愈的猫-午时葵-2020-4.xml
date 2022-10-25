@@ -1,0 +1,16 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        of d.c.e. approximations，内容大概是算法信息论里的一些结果。一开始是科普基本的定义，这个阶段我还能勉强记一记笔记，学一点诸如 "1-random" "Solovay reducibility" 之类基本的术语，而后看到如何给d.c.e. real做微分进行随机性判别的时候基本已经只能靠直观听下去了。最后真正lim满天飞去算数列的收敛性的时候，整个人已经彻底变成⑨了（在整个报告中，朱老师睡
+的很安稳） 
+
+接下来是由中南大学的李熙报告的「贝叶斯框架下通用先验的选择问题」，讲了很多归纳推理。由于我从没接触过相关内容，因此除了那些哲学论述什
+么都没听懂，也什么都没记住…… 
+
+上午的茶歇随便蹭了点吃的，到处乱走，尝试
+偷听八卦，发现基本听不懂。 
+
+第三场是北京交通大学的于剑介绍的「基于认知的机器学习公理化」。因为不炼丹也不打算炼丹，
+        </prosody>
+    </voice>
+</speak>

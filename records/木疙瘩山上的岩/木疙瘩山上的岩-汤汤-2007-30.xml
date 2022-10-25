@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+株新长的杂草。 
+
+
+“再过几天，该熟了。”他说。 
+
+
+“你猜它们是什么味道呢？” 
+
+
+“又酸又甜吧。”他抿抿嘴唇。 
+
+天色不早，我们分手回家。家里亮着灯，真是
+难得。妈妈在厨房，爸爸在茶几边正打着电话。 
+
+“xxx报吗？我有一张鬼的照片。你们出多
+少钱呢。10000元，那就算了。” 
+
+“xxx杂志社吗？我有一张鬼的照片，什么
+，25000元，啊，那就算了。” 
+
+
+我一个激灵，一把夺过爸爸手中的电话挂了：
+“你们骗我！快把岩的照片给我。” 
+
+        </prosody>
+    </voice>
+</speak>

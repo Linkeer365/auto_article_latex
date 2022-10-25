@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+刘：拿——拿我们的太太！ 
+
+
+原：胡说！ 
+
+刘：一点都不胡说。今天是汪大帅老太太的生日，家里有堂会。把北京所有的名角儿都叫去了，只有黄凤卿没有到，大帅生了气，要办他，所以派了人
+来拿他。 
+
+
+原：拿他，拿他，到底拿谁？ 
+
+
+刘：您还不明白么？ 
+
+
+原：明白？不知道你说的是怎么一回事。 
+
+刘：喔，大少爷，那一天他们结了婚，一回到
+家，我就看了出来。 
+
+原：（不耐烦。）看了出来，看了甚么出来？
+
+
+刘：我们的太太，是黄凤卿扮的！ 
+
+        </prosody>
+    </voice>
+</speak>

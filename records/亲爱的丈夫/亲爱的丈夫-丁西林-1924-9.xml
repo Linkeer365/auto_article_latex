@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+刘：是老妈子说的。 
+
+
+原：老妈子说甚么？ 
+
+刘：（走近原的身旁低了声。）自从太太来了
+之后，我们老爷还没有在太太房里歇过。 
+
+
+原：喔，傻东西！ 
+
+
+刘：傻东西？您不信么？ 
+
+
+原：我？我很信！ 
+
+
+刘：您不觉得奇怪？ 
+
+原：我也觉得很奇怪，不过这不是你们太太的奇怪，这是老爷的奇怪。你们老爷是怎样的一个人你
+知道不知道？ 
+
+
+刘：不知道。 
+
+        </prosody>
+    </voice>
+</speak>

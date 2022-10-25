@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+吉老太太：（觉得她没有办法）倒一杯茶给我。（吉倒了一杯茶送给老太太，自己亦倒了一杯，慢慢饮之。老太太沉思半响）你知道不知道，你的表兄
+弟已经同我说了几次，要我替他做媒？ 
+
+
+吉先生：怎么不知道？ 
+
+
+
+吉老太太：你知道他要说的是谁么？ 
+
+吉先生：余小姐，是不是？你问过她了没有？
+
+
+吉老太太：（很慢地答）没有。 
+
+
+吉先生：为什么不问她？ 
+
+吉老太太：为什么不问？（少顷）我想今天问
+她——好不好？（语时视吉） 
+
+吉先生：很好，看护妇配医生，互助的原则，
+        </prosody>
+    </voice>
+</speak>

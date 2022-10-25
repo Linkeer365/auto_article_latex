@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        了婚，她只是专门打扮了给你的朋友看。专门打扮了给你的朋友看，本来也是一件很好的事，不过她还要
+专门的不打扮给你看。 
+
+
+原：这正是老婆的好处！ 
+
+
+任：这正是人家老婆的好处！ 
+
+刘：（手里拿了茶壶及一张名片走进。将茶壶
+放桌上，名片向任送去。）会您的。 
+
+任：（看了名片。）我不认识他。是怎样一个
+人？ 
+
+
+刘：是步军统领衙门派来的。 
+
+任：步军统领衙门派来的？他到这里来干甚么
+？ 
+
+刘：问过他。他说——他说有一件要紧的事，
+
+        </prosody>
+    </voice>
+</speak>

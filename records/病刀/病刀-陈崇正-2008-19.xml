@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        想起父亲往日种种情状，不由百感交集，潸然泪下。
+
+一曲《风把风吹老》终了，黑衣女子将玉琴重新放回包袱中，拉着黑子的手，从窗户中一跃而出。
+
+这一夜，铁匠铺火光冲天。第二天一早，雨势加大，只有那棵老榕树依然立在池塘边，一半枝叶随
+大火变得碳黑。 
+
+
+五 
+
+
+“娘，带我去江湖吧！” 
+
+
+“好，你先把樊秀才给杀了！” 
+
+
+“那小玉呢？” 
+
+
+“娶她做老婆。” 
+
+
+“但她比我大。” 
+
+        </prosody>
+    </voice>
+</speak>

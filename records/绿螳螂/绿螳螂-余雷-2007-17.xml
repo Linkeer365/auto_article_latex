@@ -1,0 +1,19 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+“老板有事出门，把店交给大家。” 
+
+
+“照应粥店，人人有责。” 
+
+
+“自己动手，才有粥喝。” 
+
+刘知县说：“明白了吧，以后来喝粥就要干活。在朱老板回来之前，我们不能让这五口大锅空了。
+大家会干什么，就干什么吧。” 
+
+老朱粥店的门从此再没有关过。
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,11 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+（静睡不动。） 
+
+太太：可怜的小孩子！（代他理了一回发，又看了一回表，从放在身旁的一个钱包里，拿出一面小镜，一张小梳，一手执镜照面，一手用梳自理其发。
+（闭幕）
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+趣的事情，度过一个轻松的下午。 
+
+眼睛可是悄悄地，一直留意着墙上的大钟——
+啊，还有一个小时就该告辞了。 
+
+
+还有四十分钟了。 
+
+
+还有…… 
+
+时间一到，桃子就站起来感谢主人：“我该走
+啦。谢谢你们请我来，今天下午过得真高兴。” 
+
+于是主人也热情地回答道：“哪里的话，桃子
+可要常常到我家来玩，不要一个人呆在家里。” 
+
+结束了拜访，正是黄昏降临的时候。城市的上空，堆着玫瑰色的云块，暮色正从天边一点点展开。
+ 
+
+灯一盏一盏亮起来，就像落上了尘土的星星。
+
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,33 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        要见你。 
+
+
+原：是怎样的一个人？ 
+
+
+任：他现在在那里？ 
+
+
+刘：在客厅里。 
+
+任：（向原。）坐一会儿。（不愿意的走出。
+） 
+
+刘：（将门关好，仓皇地走到原的面前。）喔
+，大少爷，大少爷！ 
+
+
+原：（一惊。）什么事？ 
+
+刘：这个人是统领衙门里派来拿人的。门外还
+有好几个卫兵！ 
+
+
+原：拿人的，拿什么人？ 
+
+
+        </prosody>
+    </voice>
+</speak>

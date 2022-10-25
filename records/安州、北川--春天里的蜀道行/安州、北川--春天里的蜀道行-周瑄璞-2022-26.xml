@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        富饶丰美，人们会享受，吃的花样巨多；周边山地交通不便，苦寒交加，最主要是远离中原文明的儒家文化，不受正统约束，豪放达观，天真烂漫，形成了“蜀国人”能吃苦也会享受的性格，今朝有酒今朝醉，
+也不失为一种积极的人生态度。 
+
+生活滚滚向前，倒塌的，伤痛的，残缺的，丢失的，都将收起眼泪，合拢伤口。每一个春天来临，新开始新的生活。
+        </prosody>
+    </voice>
+</speak>

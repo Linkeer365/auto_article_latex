@@ -1,0 +1,27 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        一只马蜂
+丁西林
+
+
+﻿剧中人： 
+
+吉老太太年约五十余岁，身材细小，体质强健
+，淡素服装，非常的清洁。 
+
+吉先生吉老太太的儿子，年约二十六七，强健
+，活泼，极平常极自然的服装。 
+
+余小姐年约二十五六，姿态美丽，面目富有表
+情，服装精致。 
+
+
+仆人 
+
+
+ 
+
+        </prosody>
+    </voice>
+</speak>

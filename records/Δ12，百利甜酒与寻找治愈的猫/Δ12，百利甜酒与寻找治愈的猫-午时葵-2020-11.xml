@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        了百利甜酒，爱上了这柔顺的奶油香气。 
+
+Negroni也好，Singapore Sling也好，各式五颜六色的饮品被不断地制造出来。我们一边调，一边喝，一边闲聊。dram的思维很跳跃，让我总是无法回忆谈话的主题，却总是想到ta不断翻着自己的channel一条接一条的展示的情景。一个讨论了有几天的主题是proof assistant的设计，是否可以将kernel设计的尽可能小，以及是否应该使用传统的集合论而非类型论。虽然结论是显然的，但讨论本身还是很有趣。另外一些总是在持续讨论的事情包括但不限于一些大家都听过但叫不出名字的曲子，dram最近玩的解谜游戏，一些其他人发表的东西，以及dram和一些人的关系——因为我本质上是个很八卦
+的人。 
+
+由于我前一阵子被金酒灌到大醉，至今依然会对杜松子的味道产生强烈的不适，而dram又不怎么喝酒，于是这次大量的金酒配方都被留给了朱老师一个人。因此，我和dram有幸观察到了一个人从完全清醒到彻底喝醉的全过程。在这整个过程中，我
+        </prosody>
+    </voice>
+</speak>

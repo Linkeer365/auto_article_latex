@@ -1,0 +1,35 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+刘：我们做下人的怕的不是做主子的讲规矩·
+····· 
+
+
+原：喔？——怕的是甚么？ 
+
+
+刘：怕的是做主子的没有身份！ 
+
+
+原：喔！——你们太太有没有身份？ 
+
+
+刘：从来没有骂过我们······ 
+
+
+原：啊！ 
+
+
+刘：讲话非常的客气。 
+
+
+原：所以你们对她也得客气客气，对不对？ 
+
+刘：那是应该的。比方拿穿衣服的一件事来讲
+，······ 
+
+
+        </prosody>
+    </voice>
+</speak>

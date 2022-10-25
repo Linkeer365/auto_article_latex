@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+“购买的设备越来越多，不整理肯定会很杂乱
+、丢失很多东西对吧？” 
+
+
+“刚刚说的这些问题，是谁来负责比较好呢？
+
+
+“我啊。” 
+
+“……不是，不是那个意思……我理解你弄坏过鼓吉他贝斯音箱，你偷过别人的拨片，你喜欢在待在里面喝酒抽烟烫头纹身。我的意思是，谁应该负责
+设备的日常管理维护？” 
+
+
+
+“他们有做过吗？” 
+
+
+“做过毛线啊。” 
+
+
+“是不是管杀不管埋？” 
+
+
+        </prosody>
+    </voice>
+</speak>

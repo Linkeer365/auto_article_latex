@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+动一回）余小姐哪儿去了？ 
+
+
+吉老太太：（沉思中）打电话去了。 
+
+吉先生：（坐到小椅上，取了一块牛奶糖，慢慢取其外皮，随便地问）你的媒做得怎么样，问了她
+
+
+吉老太太：问过了。 
+
+
+吉先生：她怎么样讲？（将糖送至嘴边） 
+
+
+吉老太太：她很愿意。 
+
+吉先生：（将糖由嘴边拿回）她很愿意？她说
+很愿意么？她怎样说？ 
+
+
+吉老太太：她没有说什么。 
+
+吉先生：她没有说什么，你怎样知道她很愿意
+
+
+        </prosody>
+    </voice>
+</speak>

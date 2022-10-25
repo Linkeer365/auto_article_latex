@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        绝不会见怪的。 
+
+刘：（接了一支烟。）谢谢您。（自己燃了火，吸烟，这一支烟，引起了两人旧日的感情，所以以下的谈话，愈加的亲密了。）大少爷，您以前认识不
+认识我们的太太？ 
+
+
+原：不认识。为甚么问我？ 
+
+刘：（犹豫。）因为——我老想同您说，总没
+有空儿。（走近。）我觉得我们太太很有点奇怪。 
+
+
+原：有什么奇怪？ 
+
+
+刘：我对您说了，您可不要对老爷太太讲。 
+
+
+原：你说吧。 
+
+
+刘：我们太太······ 
+
+
+原：太太怎么样？ 
+
+        </prosody>
+    </voice>
+</speak>

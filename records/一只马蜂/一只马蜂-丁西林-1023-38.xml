@@ -1,0 +1,19 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+，面红不知所言） 
+
+吉先生：（走至余前，将余手取下，视其面）
+什么地方？刺了你没有？ 
+
+
+吉老太太：什么事？什么一回事？ 
+
+余小姐：（呼了一口深气）喔，一只马蜂！（
+以目谢吉） 
+
+闭幕
+        </prosody>
+    </voice>
+</speak>

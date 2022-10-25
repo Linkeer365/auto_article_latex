@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+问）还有什么？ 
+
+吉老太太：（自己想她的心思）这几天太阳已经很厉害，不如叫他们先把南房里的皮衣服拿出来晒
+一晒。 
+
+
+吉先生：好，还有什么？ 
+
+吉老太太：没有什么。（自言自语）王妈回家
+，说过了节，就回来，不知现在已经回来了没有？ 
+
+
+吉先生：（继续地写信） 
+
+
+吉老太太：余小姐，应该送她点礼物才好。 
+
+吉先生：（先写完了信，然后答话，再接着写信封）你不是说送她一件衣料的么？（写完了信封）
+好了，写完了。 
+
+吉老太太：（被吉打破她的深思）写完了么？
+
+        </prosody>
+    </voice>
+</speak>

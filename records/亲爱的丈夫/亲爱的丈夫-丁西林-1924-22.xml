@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        卿没有到。现在他们要拿他。 
+
+
+任：拿他，为甚么拿到我这里来？ 
+
+原：那我可不知道。（慢慢的。）也许——任
+太太长得有点像黄凤卿······ 
+
+
+任：岂有此理！ 
+
+原：不要忙，有人还说任太太就是黄凤卿扮的
+呢！ 
+
+
+任：混账。 
+
+原：说句老实话，任太太的样子，倒实在有点像黄凤卿，——嗳，简直竟可以说很像很想。如果任
+太太不是一个女人，······ 
+
+任：（恐怖起来。）甚么，你说她不是个女人
+
+原：（急辩。）我没有说。我说如果任太太不是一个女人，连我也都可以相信。现在我们知道黄凤
+        </prosody>
+    </voice>
+</speak>

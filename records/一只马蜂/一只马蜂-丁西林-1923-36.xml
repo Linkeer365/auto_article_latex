@@ -1,0 +1,34 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+余小姐：为什么不想结婚？ 
+
+吉先生：因为一个人最宝贵的是美神经，一个
+人一结了婚，他的美神经就迟钝了。 
+
+
+余小姐：这样说，还是不结婚的好。 
+
+
+吉先生：是的，你可以不可以陪我？ 
+
+
+余小姐：陪你做什么？ 
+
+吉先生：陪我不结婚。（走至余前，伸出两手
+）陪我不要结婚！ 
+
+余小姐：（为他两目的诚意与爱情所动）可以
+。（以手与之） 
+
+
+吉先生：给我一个证据。 
+
+
+余小姐：你要什么证据？ 
+
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,28 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+吉先生：她没有说什么，你怎样知道她很愿意
+
+
+吉老太太：这用不着说的。 
+
+吉先生：喔，不错，这一类的事是用不着明说的，是不是？同天气一样，只要看看天色就知道了。
+（老太太对他严厉地看了一看）那么，已经定了？ 
+
+吉老太太：她还要写封信回去，问问她的父母
+，要等…… 
+
+吉先生：问问她的父母！（解悟）喔！（把一
+块糖投入口中） 
+
+吉老太太：你笑什么？你笑她把她的父母太看
+重了，是不是？我听了很欢喜。 
+
+吉先生：没有的事！我听了也很欢喜！（又拿
+了一块放进嘴去）她说了什么时候写信没有？ 
+
+
+        </prosody>
+    </voice>
+</speak>

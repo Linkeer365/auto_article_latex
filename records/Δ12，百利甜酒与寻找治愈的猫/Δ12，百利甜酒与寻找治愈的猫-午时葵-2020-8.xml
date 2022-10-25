@@ -1,0 +1,13 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        要 PRA+TIε0 ，它们在后承意义下确实是不可比的。但是在证明论中理论 T1 强于 T2
+ 的定义就是 T1 Con(T2) 。 
+
+Δ-Workshop的最后一场，Weakly Aggregative Modal Logic: Characterization, Interpolation and Model transformation, 由来自四川大学的刘佶鑫报告。这一场是对弱聚合模态逻辑的介绍，主要聚焦在模型论技术上，讲了一点如何用树展开做有限模型上的van Benthem刻画定理，怎么构造Carig interpolation的反例，以及这东西的关系语义和邻域语义。这一场听起来也很舒服，可能是因为比较偏好报告者这种活跃的语言风格，以及内容和例子都稍微有点熟悉。不过还是很想听听证明论相关的内容，不然估计看过的
+模态证明论以后也就白看了。 
+
+活动没有什么结束仪式，和最后一场的报告者随便聊了两句就发觉人已经彻底走光了。一边和朱、
+        </prosody>
+    </voice>
+</speak>

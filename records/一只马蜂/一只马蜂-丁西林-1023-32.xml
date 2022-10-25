@@ -1,0 +1,28 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        的社会，男人尤其可怜，除了赌钱，遇不到人家的小姐太太，除了生病，得不到女人的一点同情。所以你
+一星期要打一次牌，一个月要装一次病。 
+
+吉先生：对呀！这像生病的人讲的话么？——
+发烧不发烧？ 
+
+
+余小姐：（犹豫）七十七次。 
+
+
+吉先生：可见得是说谎。 
+
+
+
+吉先生：因为你就没有数！ 
+
+
+余小姐：喔，一个人可以随便说谎么？ 
+
+吉先生：自然不能“随便“。不过我们处在这个不自然的社会里面，不应该问的话，人家要问，可以讲的话，我们不能讲，所以只有说谎的一个方法，
+可以把许多丑事遮盖起来。 
+
+        </prosody>
+    </voice>
+</speak>

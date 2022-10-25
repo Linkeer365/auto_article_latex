@@ -1,0 +1,13 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        An I0 -analogue of an AD theorem（现场的幻灯片上换了标题，不过我已经记不清了）。这一场我听懂的很少，基本也就是「听说（在 ZF+DC+AD 中） AD 的一个推论作用在模型 LR 上和（在 ZFC+I0 中） I0(λ) 中的类似物作用在 L(Vλ+1) 上的现象是类似的」这种程度，为自己
+至今不懂集合论而羞愧。（朱老师依然在睡觉） 
+
+第二场是新加坡国立大学的杨跃主讲的「实数上的递归集是 Δ1 的？ Δ2 的？还是 Δ12 的？」。杨跃先生的报告条理清楚，平易近人，十分的引人入胜（也可能只是因为我递归论学的多一点点？），讲了一些effective Polish space上的递归论，实数的递归论刻画，以及对柯西列等价类的处理，诸如此类。由于听的太
+入迷，忘记记笔记了，十分后悔。（朱老师醒了） 
+
+// 还记得在讲到MS机（Master-Slave Machine）的时候，杨跃说这两个词有些歧义，叫我们不要想歪，而后下面就有人窃
+        </prosody>
+    </voice>
+</speak>

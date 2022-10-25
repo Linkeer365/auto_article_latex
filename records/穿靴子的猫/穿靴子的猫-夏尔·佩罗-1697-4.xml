@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        变不小，老鼠你就变不了吧。 
+
+妖怪生气地说我什么都能变，说完它就变成了一只小老鼠，猫立刻扑上去一口吃掉了他。过了一会国王来到了这座宫殿前，猫马上跑出来迎接。它说欢
+迎来到卡拉巴侯爵的城堡。 
+
+国王更惊讶了，他对小儿子说侯爵先生你愿意娶我的女儿吗？小儿子高兴极了。小儿子和公主举行了盛大的婚礼，他成了真正的侯爵。穿靴子的猫从此了一位高贵的绅士，它再也不用抓老鼠了。
+        </prosody>
+    </voice>
+</speak>

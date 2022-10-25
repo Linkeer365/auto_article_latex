@@ -1,0 +1,18 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        穿靴子的猫
+夏尔·佩罗
+
+﻿从前有一个磨坊主，他死后留下了一间磨坊一头驴和一只猫。大儿子占了磨坊，二儿子牵走了驴，只给小儿子剩下了那只猫。小儿子很发愁，不知道
+以后该怎么生活。 
+
+这时猫开口说话了，主人别担心只要你给我一个口袋在给我做一双能在荆棘丛里行走的靴子，我就能让你过上好日子。小儿子虽然不太相信，但还是给
+了猫它想要的东西。 
+
+猫穿上靴子来到养兔林，它在口袋里放上麸皮和兔儿草，然后躺在地上装死。不一会儿一只兔子钻进口袋里吃东西，猫立刻跳起来一下子收紧了袋口的
+绳子捉住了兔子。 
+
+        </prosody>
+    </voice>
+</speak>

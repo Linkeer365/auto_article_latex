@@ -1,0 +1,20 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+妈妈…… 
+
+耿伟的心跳逐渐在寂寥的空间中稀薄，减弱，
+接近听阀…… 
+
+阴暗深寂的尽头，仿佛隐约传来微弱的笑声，
+开心的笑。 
+
+
+咯，咯咯咯…… 
+
+听，是姐姐在笑……
+        </prosody>
+    </voice>
+</speak>

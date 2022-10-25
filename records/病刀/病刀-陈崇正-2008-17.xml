@@ -1,0 +1,32 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+衣女子站在床前。她和黑夜一样黑。 
+
+女子说：“如果有人伤害了你的亲人，你应该
+怎么做？” 
+
+黑子摇了摇头：“我不知道，我爹没有教我。
+
+
+“你不恨么？” 
+
+
+黑子摇头：“我不知道。” 
+
+女子冷冷一笑：“孩子，你应该学会仇恨，就
+如你要学会爱一样。” 
+
+静了一会儿，女子又说：“你最想做的是什么
+？你最想要的是什么？” 
+
+
+黑子依然抱着被子。 
+
+
+“你应该有一点欲望吧？” 
+
+        </prosody>
+    </voice>
+</speak>

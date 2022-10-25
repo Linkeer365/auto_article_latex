@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        看看。 
+
+
+任：最少一个星期两次。 
+
+
+太太：可以，可以。可是······ 
+
+
+任：怎么？ 
+
+
+太太：可是我不能穿这样的衣服。 
+
+任：不能穿这样的衣服？（了解了她的意思，
+如剑穿胸。）喔喔！不要来，不要来。 
+
+
+
+任：从今天起我不认识你，你也不认识我。 
+
+太太：怎么！不准我到自己的家里来？不准我来看一看我自己的睡房书房？不准我到我自己布置的客厅里坐一坐？不准我在我自己绣的腰枕上靠一靠？
+你能够这样的无情无义么？ 
+
+任：我的妻子今晚去世，从今天起我是一个鳏
+        </prosody>
+    </voice>
+</speak>

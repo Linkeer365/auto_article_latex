@@ -1,0 +1,28 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+吉老太太：不过我终是不相信，其余的人，能够同你一样。纵然有你这样的能干，也一定不会这样
+的和善，这样的体贴。 
+
+（仆人由左门入，手里拿了一个盘，盘中置茶
+壶、茶杯、糖罐等物） 
+
+
+余小姐：（老太太欲倒茶）老太太请坐，让我
+自己来倒。（倒了一杯茶送老太太） 
+
+吉老体贴：喔，谢谢你，（吉倒了一杯茶送余
+） 
+
+余小姐：（受吉之茶）谢谢。（欲代吉倒茶）
+
+
+吉先生：谢谢，我不喝茶。 
+
+余小姐：（一面喝茶）老太太为什么不在北京
+多住几天？有吉小姐在家，难道还不放心么？ 
+
+        </prosody>
+    </voice>
+</speak>

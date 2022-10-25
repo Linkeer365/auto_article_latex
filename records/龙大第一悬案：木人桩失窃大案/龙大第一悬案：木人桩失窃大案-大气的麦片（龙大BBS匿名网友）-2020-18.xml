@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+
+“您慢慢讲。” 
+
+
+“我问你，你知道乐队房吧？” 
+
+“我知道。我是文艺青年。我喜欢盘尼西林、
+宋冬野、华晨宇。我会弹C大调所有和弦。” 
+
+
+“你知道吉他音箱吧？很贵的那种。” 
+
+“我知道。我是文艺青年，嬉皮士，理想主义者，绕啃肉爱好者。关机前音量开到最大。我玩坏过两台marshall三个fender四台rol
+and。” 
+
+“……你牛逼。你比马牛逼都牛逼。不过有一
+说一啊老兄，有人比你更牛逼。” 
+
+
+
+“林郑。” 
+
+        </prosody>
+    </voice>
+</speak>

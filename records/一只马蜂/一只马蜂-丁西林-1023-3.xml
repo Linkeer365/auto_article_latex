@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+吉老太太：我本想闭了眼睛歇一会，不想一不
+留心，就睡着了。（坐起） 
+
+吉先生：老人家的眼睛，同小孩子的眼睛一样，闭不得的。一闭了，就不由你做主。（将报纸拾起
+，坐在小椅上） 
+
+
+吉老太太：现在什么时候了？ 
+
+吉先生：（由包里取出一个表看了一看）三点
+一刻。 
+
+
+吉老太太：你在哪里一只到现在？ 
+
+
+吉先生：在书房里写了两封信。 
+
+吉老太太：喔，不错，你替我把那封信写了吧
+。 
+
+吉先生：好，现在就写。（坐到写字桌，从抽屉里拿出信纸信封，砚里倒了水，磨墨取笔，预备写
+        </prosody>
+    </voice>
+</speak>

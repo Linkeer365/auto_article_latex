@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+原：她要你穿大褂儿？ 
+
+
+刘：我向来不着短衣。 
+
+
+原：喔，对不起，我忘了。 
+
+刘：她最不愿意看见我们穿脏的衣服，前天我穿了一件旧大褂儿，其实不能算脏，太太看见了，她说：“老刘，你这件衣服应该换了。”我说：“太太，那一件洗了还没干。”她说：“你只有这两件么？”我说：“是。”她说：“两件怎么够穿？过天叫裁
+缝来替你做几件新的吧。” 
+
+
+原：叫裁缝来做了没有？ 
+
+刘：（指了身上现穿的新长衫。）一齐做了两
+件。（取了纸烟缸子。） 
+
+
+原：啊，这就是你所说的做主子的身份！ 
+
+
+刘：（点了一点头，送烟。）你抽烟。 
+
+        </prosody>
+    </voice>
+</speak>
