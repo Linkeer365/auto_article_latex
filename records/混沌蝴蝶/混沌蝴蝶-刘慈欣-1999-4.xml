@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+“开始我也不太理解，但现在理解了，你害怕
+已久的事发生，有时是一种解脱。” 
+
+
+“你不是神，亚历山大。” 
+
+“这点总参谋部和国防部的那帮混蛋已提醒过
+我了。” 
+
+“这么说你找过政府了？他们不相信你能找到
+大气敏感点？” 
+
+
+“你能相信吗？” 
+
+“以前也不信，但看到你的数学模型的运转后
+有些信了。” 
+
+“那里没人会仔细看那个数学模型，但他们主
+要是不相信我这个人。” 
+
+
+“你好象不是反对党。” 
+
+        </prosody>
+    </voice>
+</speak>

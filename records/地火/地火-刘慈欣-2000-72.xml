@@ -1,0 +1,17 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        ，人民流离失所。失火的原因有多种说法，有人说是一次地下武器试验造成的，也有人说与当时的绿色和
+平组织有关。 
+
+我们不必留恋所谓过去的好时光，那个时候生活充满艰难危险和迷惘；我们也不必为今天的时代过分沮丧，因为今天，也总有一天会被人们称做是——
+过去的好时光。 
+
+
+
+(完) 
+
+
+        </prosody>
+    </voice>
+</speak>

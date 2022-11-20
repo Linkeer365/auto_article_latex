@@ -1,0 +1,16 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        “No”。我渐渐地被他感动了，将自己的希望寄托在他身上。我跟他说：“我是一个失败的运动员，当我成了教练员，就把全部希望放在了学生身上，但愿
+他们能实现自己当年的梦想。” 
+
+当博二开始的时候，他的研究成果已经相当多了。为了他的成长，我对他提了个要求：30%时间做研究，70%时间念书。这一年，他主要上了微分几何以及相对论的课。另外，由于自己主要在确定性
+方向工作，我不希望他在随机方面有缺陷。 
+
+我让他自学“随机过程”，每周报告一次，用的教材是Z. Brzezniak, T Zastawniak, Basic Stochastic Processes。我要他连每一道习题都要讲清楚。到了第二学期，听众只剩我一个人，我们还是一直坚持到讲完。事实证明，这些结果在他后面关于概率布尔网络及混合策略博弈的工作中得到很好
+的应用。 
+
+我自己一生吃了英语的不少亏，因此，我一再
+        </prosody>
+    </voice>
+</speak>

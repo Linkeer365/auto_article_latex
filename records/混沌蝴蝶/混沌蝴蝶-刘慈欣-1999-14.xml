@@ -1,0 +1,27 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        他的位置指示清晰，敏感点现在很稳定，飘移很慢，
+距他只有五公里了。 
+
+“美国人在那里扔了很多炸弹，还有战斧导弹，呲——轰！喂，朋友，你知道一枚战斧多少钱吗？
+
+
+“一百五十万美元吧，我想。” 
+
+
+亚历山大，注意，只有三千五百米了。 
+
+“哇，白人真阔气，干什么都阔气。那么多钱在这里可以建一个种植园，或一个水库，能养活很多
+人呢！” 
+
+
+亚历山大，三千米！ 
+
+“美国为什么打仗？你不知道？！哦，听说米洛舍维奇在那个叫科索沃的地方杀人，杀了四十多人
+……” 
+
+
+        </prosody>
+    </voice>
+</speak>

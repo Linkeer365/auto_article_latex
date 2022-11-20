@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        强调他英语一定要过关。从博一开始，我每年都安排他出国开会至少一次。博三，在我的协助和支持下，安排他到英国、美国、新加坡等进行学术访问。上个暑假，他到英国Glasgow访问了两个半月，他明天就要去美国Texas Tech Univ.访问四个月。新加坡的Xie教授答应他什么时候去
+都可以。 
+
+他有一张令人羡慕的成绩单。他已经发表了十几篇期刊论文、十几篇会议论文（至少一半是国际会议）。还有一本和我及我另一个毕业学生合写的专著：“Introduction to Semi-tensor Product of Matrices and Its Applications”，World Scientific (600 pages)。他的论文包括IEEE TAC的Regular Paper (第一作者)，Automatica的Regular Paper (第二作者)，Systems and Control Letters (第一作者)，中国科学 (第一作者)，等等。同行一看就知道这些文章
+        </prosody>
+    </voice>
+</speak>

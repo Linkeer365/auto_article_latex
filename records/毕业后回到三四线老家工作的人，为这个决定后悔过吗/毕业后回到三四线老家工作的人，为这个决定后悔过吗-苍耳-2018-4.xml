@@ -1,0 +1,36 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+辞职回家。 
+
+
+请人找相亲对象。 
+
+
+可是，遇到这样的事情有什么办法呢？ 
+
+治病，没了家底。陪人，没了时间。然后女友
+也在这段时间分开了。 
+
+
+我自己其实也是强撑着。 
+
+
+也只能撑着。 
+
+
+四年后的现在，我在老家的一座小城定居。 
+
+
+母亲找了一个老伴儿，生活的还算愉快。 
+
+有时候，我也好怀念，出了地铁站，随意走走
+逛逛的日子。 
+
+
+我也好想再去大城市里闯一闯。 
+
+        </prosody>
+    </voice>
+</speak>

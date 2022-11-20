@@ -1,0 +1,22 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        报有误（见战场条件数据库ASD119，气象部分
+），已更正于M483情报。 
+
+由此引起1351，1353，1357号作
+战指令变动如下。 
+
+以下部分转发前方攻击基地：意大利基地（科米索基地、阿维亚诺基地、利科纳基地、马达莱那岛基地、锡戈内拉基地，布林迪西基地），希腊基地（苏达基地、伊拉克翁基地、雅典基地、敦马科里基地
+） 
+
+
+并转发：地中海航空母舰战斗群 
+
+取消1351指令和1357指令中所有B3类弹药（注2）攻击，目标群：GH56，IIT773，NT4412，BBH091145，LO88，1123RRT，691HJ。（索引见目标数
+据库TAG471） 
+
+保留1353指令B3类弹药攻击，目标群：
+        </prosody>
+    </voice>
+</speak>

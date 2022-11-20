@@ -1,0 +1,7 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        之所以会知道，一来是因为（兄弟）的普及与带路，二来这里也可以理解为一种（预切创），譬如决意割腕的人并不总能痛快地来上一记，而是先试探性地割出小创口；这些景点的逐一拜访，可以视作（跳楼踩）
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,13 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        …只是心涵不在了，哲雨不在了，只留下了当年的小
+然然，仅此而已 
+
+风缓缓地吹过红色的围墙，我的心在橘于花的香气中感到一丝温暖，我靠在墙角细数着过去的回忆
+，妈妈，心涵，哲雨 
+
+静静的，轻轻的，我坐在墙角重温我的过去，橘子花的香气中找寻属于我的幸福。
+        </prosody>
+    </voice>
+</speak>

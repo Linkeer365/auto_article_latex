@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        的人恐怕占了绝大多数，因此，拉康之骂对于我们又
+会是过于真实的真在。 
+
+所以，拉康的故事固然只是一则离奇的哲学寓言，可也的确诉说了一种常人不可见的真实。依我看，听懂它的言说并不见得必然使我们走向悲观的虚无（我的一位朋友在听了拉康的故事之后，跺足大叫:“这正是佛、老之无！”）。它无非是让我们多一种清醒，以正确认识自己，认真对待我们存在中的种种物化和异化之自我疏远，自省生命中的能指之漂浮和本己的不可能性罢了。那样，这个世界上大抵真会少些不自知的疯狂和看似正常的精神疾病。
+        </prosody>
+    </voice>
+</speak>

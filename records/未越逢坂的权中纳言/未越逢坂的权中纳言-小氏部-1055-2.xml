@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        吧" 带着心中的物忧（权中纳言不情愿地说道），“（这忧郁的表情）真是和你完全不相称啊，今晚约好了要去访问的人又来多么地怨恨啊~~”(藏人少将说道)，听到这些（权中纳言）回答说"我这样微不足道的人，又有谁会思念我而心生怨恨呢？"，说
+完就径直地出发了。 
+
+（宫中) 此时正好是人们把各种琴和笛子拿出来，调好了音调等待管弦之会开始的时候，小小的月亮隐没在云中，在微微的星光下，演奏开始了；不懂管弦之道的殿上人睡眼惺忪，还不停地打着哈欠，是太过分了.
+        </prosody>
+    </voice>
+</speak>

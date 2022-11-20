@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        染了我，像南方沙滩被海浪浸湿一样飞快，使我的心
+中充满了飞翔的大量。 
+
+他像一轮满月让我的生命有了光辉。可是，我明白，我是一只睡在风中的鸟，我只能衔一枚银杏叶，包一片月光藏好，压在回忆里，平平的，像压过的思。
+        </prosody>
+    </voice>
+</speak>

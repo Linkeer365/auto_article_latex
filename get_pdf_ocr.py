@@ -36,12 +36,29 @@ def get_text(img_path):
     # print("out:",out)
     # out = [dict(text="",score="",position="")]
     lines=[]
+    cur_distance=-1000
     for pack in out:
+        print(pack)
+        print("\n\n** ** **\n\n")
         text=pack["text"]
         left_distance=pack["position"][0][0]
-        if left_distance>100:
+        # assert left_distance!=None
+        if cur_distance==-1000:
+            print("cur_dist is None.")
+            # text="par"+text
+            # cur_distance=left_distance
+            # flag=-1
+        delta_distance=left_distance-cur_distance
+        # >100 是指分页，分页的一般是直接接过去就行
+        if delta_distance>=30 and abs(delta_distance)<=100:
             text="par"+text
+        print(text)
+        print("current distance:",cur_distance)
+        print("left distance:",left_distance)
+        print("delta distance:",delta_distance)
+        print("\n=== === ===\n")
         lines.append(text)
+        cur_distance=left_distance
         # print(left_distance)
     lines_s="".join(lines)
     return lines_s
@@ -71,7 +88,7 @@ def get_format_text(raw_str):
         "<":"《",
         ">":"》",
         ":":"：",
-        " ":"",
+        # " ":"",
         # "\n\n":"par",
                 }
     format_chars=[]
@@ -128,11 +145,13 @@ imgs=sorted([each for each in os.listdir(".") if each.startswith("input") and ea
 for img in imgs:
     img_path=os.getcwd()+os.sep+img
     img_obj=Image.open(img_path)
+    # os._exit(0)
     # print(img_obj.size)
+    width,height=img_obj.size
     # box=(10,10,10,10)
     # 这个参数是我好不容易才试出来的，不要动！！
-    box=(488/6,690/6,976-488/6,1381-690/6)
-    new_img_obj=img_obj.crop(box)
+    box1=(0,height/12,width,height-height/6+height/24)
+    new_img_obj=img_obj.crop(box1)
     plt.imshow(new_img_obj)
     new_img_obj.save(img_path)
     # plt.show()
@@ -148,14 +167,24 @@ for img in imgs:
     raw_text=get_text(img_path)
     new_text=get_format_text(raw_text)
     # new_text=raw_text.replace("par", "\n\n")
-    print(new_text)
+    # print(new_text)
     # break
     # 非要utf-8 真没辙，又是一堆要改
-    with open("./text_files/output.txt","a",encoding="utf-8") as f:
+    # update 2022-11-20: 保存成utf8bom，然后用下面那段代码。
+    with open("./text_files/output2.txt","a",encoding="utf-8-sig") as f:
         f.write(new_text)
         # f.write("\n\n")
     # break
-    print("one done.")
+    # print("one done.")
+
+# os._exit(0)
+
+with open("./text_files/output2.txt","rb") as src_file:
+    with open("./text_files/output.txt","w+b") as des_file:
+        contents=src_file.read()
+        des_file.write(contents.decode("utf-8").encode("utf-16-le"))
+
+# os._exit(0)
 
 filename=input("filename:")
 
@@ -176,9 +205,9 @@ os.rename("input.pdf", "{}-截取版.pdf".format(filename))
 # with open("./text_files/{}.txt".format(filename),"w",encoding="utf-16-le") as g:
 #     g.write(content)
 
-print("格式给我手动保存成 utf-16-le！")
-print("格式给我手动保存成 utf-16-le！")
-print("格式给我手动保存成 utf-16-le！")
+# print("格式给我手动保存成 utf-16-le！")
+# print("格式给我手动保存成 utf-16-le！")
+# print("格式给我手动保存成 utf-16-le！")
 
 print("done.")
 
