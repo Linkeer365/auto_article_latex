@@ -1,0 +1,13 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+了孔子一生苦苦追求的东西，看来他死而无憾了！ 
+
+不对，他了解的只是人生程序，是冰山的一角。如此复杂的程序，是谁编写的？那些黑衣人？他们是谁？他们为什么要编写人生程序？我们和他们，到
+底是什么样的关系？ 
+
+秦渐离永远也无法知道答案，因为他再也没有间了……
+        </prosody>
+    </voice>
+</speak>

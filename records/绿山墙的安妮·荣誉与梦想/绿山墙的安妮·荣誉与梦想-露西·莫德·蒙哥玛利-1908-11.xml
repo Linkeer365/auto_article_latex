@@ -1,0 +1,7 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        大地安宁、静谧，空气里弥漫着的芬芳的气息；但也是她一生遭受悲痛前的最后一夜，一旦遭到那种冷酷情的打击，生活不再依然如故了。
+        </prosody>
+    </voice>
+</speak>

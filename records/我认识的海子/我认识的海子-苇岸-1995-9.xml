@@ -1,0 +1,8 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        的俄罗斯诗人。一位是谢苗·雅可夫列维奇·纳德松，一个终年与海子相同的诗人，他死后，俄罗斯为他制作了金属棺材，举行了隆重葬礼，随后出版了他的诗歌全集。另一位是我们熟知的谢尔盖·叶赛宁，在他的故乡梁赞，每逢九月二十一日（叶赛宁的诞辰日），都要举行俄罗斯文学日；他出生的康斯坦丁诺沃村，也以叶赛宁的名字命名，并与周围地区一起，被宣布为国家保护区。海子离世已经十年了，而他身后的一切，还仅限于朋友们私下的种种努力。
+我幻想，期盼，并满怀信心地相信：终有一天，海子会从他的祖国那里，得到像俄罗斯给予她的叶宁那样的荣誉。
+        </prosody>
+    </voice>
+</speak>

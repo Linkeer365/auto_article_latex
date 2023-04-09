@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        天后我知道，坦普尔小姐在拂晓回房时，发现我躺在小床上，我的脸蛋紧贴着海伦·彭斯的肩膀，我的胳
+膊搂着她的脖子，我睡着了，而海伦死了。 
+
+她的坟墓在布罗克布里奇墓地，她去世后十五年中，墓上仅有一个杂草丛生的土墩，但现在一块灰色的大理石墓碑标出了这个地点，上面刻着她的名字“Resurgam”这个字。
+        </prosody>
+    </voice>
+</speak>

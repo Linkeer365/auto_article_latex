@@ -387,7 +387,8 @@ if __name__ == "__main__":
 
     voice_content=content
 
-    audio_comm_patt="python \"{}\" --input \"{}\" --output \"{}\""
+    # audio_comm_patt="python \"{}\" --input \"{}\" --output \"{}\""
+    audio_comm_patt="edge-tts --voice zh-CN-YunyangNeural --rate=-20% -f \"{}\" --write-media \"{}.mp3\""
     if poem_or_essay == "essay":
         article_insert=essay_insert
         article_head=essay_head
@@ -403,12 +404,20 @@ if __name__ == "__main__":
         # os._exit(0)
         if i == 0:
             new_vc="{}\n{}\n\n".format(title,author)+new_vc
+        # 2023-4-8 21:56:36 因为SSML被微软kill了，所以这里我们采用另一个api文档转语音，就不用xml_pack来包装它了（但是xml还保留，不动它）
         xml_path="{}-{}.xml".format(new_title,i+1)
-        with open(xml_path,"w",encoding="utf-8") as f:
+        with open(xml_path,"w",encoding="utf-8") as f:            
             ap=xml_pack(new_vc)
             f.write(ap)
+        # 新的txt文件
+        txt_path="{}-{}.txt".format(new_title,i+1)
+        with open(txt_path,"w",encoding="utf-8") as f:            
+            txt=new_vc
+            f.write(txt)
         audio_path="{}-{}".format(new_title,i+1)
-        audio_comm=audio_comm_patt.format(tts_py_path,xml_path,audio_path)
+        # audio_comm=audio_comm_patt.format(tts_py_path,xml_path,audio_path)
+        audio_comm=audio_comm_patt.format(txt_path,audio_path)
+        # print("先关掉你的proxy.")
         print("audio comm:",audio_comm)
         cnt=0
         while True:
@@ -445,6 +454,7 @@ if __name__ == "__main__":
     shutil.copyfile("voice.txt", "records/{}/voice.txt".format(record_name))
     os.system("move *.xml  records/{}".format(record_name))
     os.system("move *.mp3  records/{}".format(record_name))
+    os.system("move *.txt  records/{}".format(record_name))
 
     os.chdir("records/{}".format(record_name))
 
@@ -452,5 +462,6 @@ if __name__ == "__main__":
 
     os.system("copy *.pdf \"{}\"".format(simple_video_generate_path))
     os.system("copy *.mp3 \"{}\"".format(simple_video_generate_path))
+    os.system("copy *.txt \"{}\"".format(simple_video_generate_path))
     print("done.")
     # os.system("cd ./text_files")

@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        有一个人再看菲利克斯一眼。 
+
+林肯号航空母舰直到黄昏时才完全沉没，当舰上的塔岛最后沉入水中时，被压出的空气发出巨大的嘶鸣，像非洲海岸凄厉的号角，菲利克斯将军站在一艘巡洋舰的舰桥上，用困惑的目光望着远方古老的土
+地。 
+
+在那块百万年前诞生人类的土地上，飞人群正在夕阳中盘旋。
+        </prosody>
+    </voice>
+</speak>

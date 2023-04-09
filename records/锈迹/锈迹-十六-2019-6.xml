@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        们去了好一会，Nova 却也没下来。又过了一会，警铃响了。Nova 房间的警铃响了。我们冲到门口，打开门，只看见 Nova 坐在床边，捂着脸，哭得很大声，身子不断地抽搐。十六站在墙边，
+手指还按在电铃上，正在不停喘气。 
+
+我们让十六也坐在床上，问他是怎么回事。十说他亲了一下 Nova 的脸颊，就这样了。
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+为生存而生存，为看云而看云，
+厚着脸皮占地球的一部份……
+在刚果河边一辆雪撬停在那里；
+没有人知道它为何滑得那样远，
+没人知道的一辆雪撬停在那里。
+        </prosody>
+    </voice>
+</speak>

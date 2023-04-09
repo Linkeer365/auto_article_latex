@@ -1,0 +1,11 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+要是真这样的话，我苦笑，希望你们这还有其他口味的冰沙，你不说话，戴上帽子，阳光下的你，
+像一株清冷的绿植，一如你生前的身姿 
+
+那么，再见，我们终将再会，如同太阳准时准的将在明天复活
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        ，我想起了人类村庄的袅袅炊烟，夜晚星辰的破碎明
+亮，同类之间的冷言冷语，母亲永远忙碌的身影。 
+
+温暖的阳光洒在乌鸦的身体上，雪白的天地间，开出了一朵血色的“虞美人”，采诗官悠长的木屐声，敲打起了料峭的春寒，唱道：人生如烟火焚城，静无声。
+        </prosody>
+    </voice>
+</speak>

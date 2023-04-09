@@ -1,0 +1,35 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        知道那事了吧？” 
+
+我没有一点力量了。然而，心中还有一个发条
+一样的东西，它使我作出了堂而皇之的回答： 
+
+
+“嗯。……知道。遗憾得很。” 
+
+
+“什么时候？” 
+
+
+“去年春天。” 
+
+
+“和哪一位？” 
+
+——这优雅的提问使我吃惊不小。她只知道把
+我和她自己知道姓名的女人联系在一起考虑。 
+
+
+“名字不能讲。” 
+
+
+“哪一位？” 
+
+
+“别问了。” 
+
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,26 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+春天，他帮助人们犁田播种。他可以同时背负
+几个犁，力气赛过十头牛； 
+
+夏天，他与孩子们在湖中嬉戏，鱼儿不避让，
+反而在他们身边畅游； 
+
+秋天，收获的季节。他的翅膀已经长硬，盘旋
+在森林上空，为人们指点丰盛果实的地点； 
+
+冬天，猎人邀请他一起打猎。如蛟不愿去。凡此种种杀戮，他皆不愿参与。他宁可在房间里，为小
+朋友吐火取暖。 
+
+更多的时候，他陪伴在妮可公主身边，形影不离。妮可有个习惯：每天黄昏坐在玫瑰山顶，看西沉
+的太阳，看远去的大路。 
+
+如蛟已经长得很大了，他在妮可身边坐下，象
+一块巨大的岩石。 
+
+
+        </prosody>
+    </voice>
+</speak>

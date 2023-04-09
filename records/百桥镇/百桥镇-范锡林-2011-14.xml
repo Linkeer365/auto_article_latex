@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        轻快地骑着自行车，在街对面出现了。 
+
+是榴榴，是他时时在思念的朋友，他最好的同桌！然而，阿颖没有呼唤，他只是站在那里，默默地看着她，看着她的身影从街对面驰过去，最后消失在
+拥挤的人流之中。 
+
+他相信，将来总还会有那么一天，他会再遇到的。到那时候，要不要将这段经历告诉她呢？
+        </prosody>
+    </voice>
+</speak>

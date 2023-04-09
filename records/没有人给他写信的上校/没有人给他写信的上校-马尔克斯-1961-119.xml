@@ -1,0 +1,14 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+
+“你说，吃什么？” 
+
+上校活了七十五岁——用他一生中分分秒秒积累起来的七十五岁——才到了这个关头。他自觉心灵
+清透，坦坦荡荡，什么事也难不住他。他说： 
+
+“吃屎。”
+        </prosody>
+    </voice>
+</speak>

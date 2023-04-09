@@ -1,0 +1,21 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        苦味冰沙
+n3
+
+﻿回过头去我又看见了你，穿着拖鞋喝着苦味
+的冰沙，静静的看着我，好像要看穿我的一生 
+
+十年多了，冤魂也早就投胎了吧，你怎么到现
+在还经常跑到我的梦里来啊 
+
+你并不回我的话，只是问起你爸爸妈妈的情况，小弟的高考，我只是一一的作答，说是叔叔的糖尿病维持着不好不坏，阿姨的老胃病倒是神奇的被我妙
+手回春了 
+
+小弟也是正常的发挥，不过就是死活想去南方科技大学，叔叔阿姨的威逼和我的利诱均败下阵来，
+现在估计商量已经没有余地了 
+
+        </prosody>
+    </voice>
+</speak>

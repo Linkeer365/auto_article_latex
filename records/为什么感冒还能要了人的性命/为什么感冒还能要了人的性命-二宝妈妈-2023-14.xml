@@ -1,0 +1,10 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        也不会有人喊“妈妈你来找我呀”。昨天早上，我刚到办公室，就看到一只喜鹊落在外面的窗台上，还扭头看了我一眼，这一眼，我就相信是二宝回来看我了。我想起了二宝以前总会扭着屁股说的儿歌“你们都给我变鸟，变很多很多的鸟，变各种各样的鸟，鸟儿鸟儿满天飞”，二宝，你真的变成那个小喜鹊了吗？
+ 
+
+又到周末了，以前总会带着二宝去门头沟爬山，但是今天我就躲到单位加班了。上午写完了客户需要的文件，但是我还不想回家，就把这二十多天以来所有事情记录一下吧。
+        </prosody>
+    </voice>
+</speak>

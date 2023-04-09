@@ -1,0 +1,16 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+“找到我的孙女了吗？”他问。 
+
+“没有，我们缺少在地核中进行远距离探测的技术，那是一个广阔的区域，谁也不知道铁镍流把她
+带到哪里了。” 
+
+“能不能把我们看到的这些用中微子发向地心
+？” 
+
+“一直在这么做呢，相信她会看到的。”
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,17 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+她站在碧蓝的海水里，手捧里斯，开始吟唱古
+老相传的人鱼之歌。 
+
+
+歌声如海雾般飘渺，传出很远很远。 
+
+在云和山的彼端，在海的尽头，出现了高高的船桅。桅杆上，立着一个左手为铁钩的人。他用单筒望远镜看见了人鱼少女，兴奋得又蹦又跳。那船劈波斩浪，全速前进。船身“皇后号”三个大字，闪烁着
+阴冷的寒光。 
+
+然而，人鱼少女的生命之歌，依然响彻天海间…
+        </prosody>
+    </voice>
+</speak>

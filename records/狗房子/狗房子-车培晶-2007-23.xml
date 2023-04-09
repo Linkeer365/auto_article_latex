@@ -1,0 +1,15 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        茫茫。久旱的田野拼命吸吮着雨水。 
+
+雨后，天地水汪汪一片，但满五称之为“湖”的那眼大井居然不见水了。井枯了。黑洞洞的井底有
+只个头不小，与井石色相近的龟在做爬状。 
+
+又隔了数日，是个子夜，有一拨山胡子队伍打进了狗房子，枪声杀声搅混了夜。有的山胡子使的正是章傻子从火车上扒下的枪。山胡子撤了，狗房子大火冲天，烧到天亮时，狗房子只剩下黑黑的一片残瓦
+焦木。 
+
+那眼大井至今还在，水盛盛的。据说在日本人降之后，那井里才开始有水。
+        </prosody>
+    </voice>
+</speak>

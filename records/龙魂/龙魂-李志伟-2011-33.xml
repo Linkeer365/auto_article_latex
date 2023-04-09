@@ -1,0 +1,33 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+，定能打赢这场战争！” 
+
+
+“帮你打仗？我不干。” 
+
+
+“那……你做统帅，我做你的手下？” 
+
+“我不是为了争官。打仗要流血的，我不想看
+著那么多人受伤，失去生命。” 
+
+“但如果你不尽快结束这场战争，就会有更多
+的人受伤、失去生命！” 
+
+
+“以屠杀终止屠杀，这正确吗？” 
+
+
+“这是唯一的办法！” 
+
+“不。你们为什么不以和平的方式，结束战争
+呢？” 
+
+
+“和平的方式？” 
+
+        </prosody>
+    </voice>
+</speak>

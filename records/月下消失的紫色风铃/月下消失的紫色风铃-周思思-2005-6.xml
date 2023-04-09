@@ -1,0 +1,7 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        。还有，我永远不会忘记你的微笑，风铃清脆的声音，还有荷花的馨香。我静静地躺在床上，闭上眼睛，中传来那串紫色风铃“丁零丁零”的清脆声音……
+        </prosody>
+    </voice>
+</speak>

@@ -22,6 +22,9 @@ tessdata_dir_config = '--tessdata-dir "C:/Program Files/Tesseract-OCR/tessdata"'
 if os.path.exists("./text_files/output.txt"):
     open("./text_files/output.txt","w",encoding="utf-8").close()
 
+if os.path.exists("./text_files/output2.txt"):
+    open("./text_files/output2.txt","w",encoding="utf-8").close()
+
 def get_encoding_type(file):
     with open(file, 'rb') as f:
         rawdata = f.read()
@@ -88,6 +91,8 @@ def get_format_text(raw_str):
         "<":"《",
         ">":"》",
         ":":"：",
+        "[":"【",
+        "]":"】",
         # " ":"",
         # "\n\n":"par",
                 }
@@ -150,9 +155,13 @@ for img in imgs:
     width,height=img_obj.size
     # box=(10,10,10,10)
     # 这个参数是我好不容易才试出来的，不要动！！
-    box1=(0,height/12,width,height-height/6+height/24)
-    new_img_obj=img_obj.crop(box1)
-    plt.imshow(new_img_obj)
+    # box1=(0,height/12,width,height-height/12+height/24)
+    # box1=(0,height/12,width,height-height/12-height/48)
+    box1=(0,0,0,0)
+    new_img_obj=img_obj
+    if box1 != (0,0,0,0):
+        new_img_obj=img_obj.crop(box1)
+    # plt.imshow(new_img_obj)
     new_img_obj.save(img_path)
     # plt.show()
     # break
