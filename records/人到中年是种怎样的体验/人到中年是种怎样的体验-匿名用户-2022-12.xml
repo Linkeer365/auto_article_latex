@@ -1,0 +1,28 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+你们过得快乐吗？ 
+
+每个月的今天我都买你最喜欢的杨枝甘露和菠萝蜜放在你床头，我们一起分享，你一口，我一口。
+
+还有你喜欢的向日葵和小菊花，能开许久，我
+每天都换水。 
+
+现在我也喜欢上了奶茶，只是不敢多喝，医生
+说我的十二指肠溃疡越发严重了，让我控制饮食。 
+
+你在远方好好的，自己照顾好自己，缺什么告
+诉我。 
+
+家里挺好的，我们都好，爸爸会照顾好妈妈和
+奶奶。 
+
+我们都爱你，永远爱你，不管你在哪里，变成
+什么样子。 
+
+一直想当面和你说声对不起，可是一直没有说
+
+        </prosody>
+    </voice>
+</speak>

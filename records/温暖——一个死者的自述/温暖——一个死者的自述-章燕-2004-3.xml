@@ -1,0 +1,13 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+慰问金，送到我家里，安慰我的亲人。 
+
+我的妈妈失去了自己养育九年的孩子，真是痛不欲生，整天以泪洗面，同学们就利用节假日或课余时间，来陪伴她，用一颗颗天真的童心愈合一位母亲
+流血的伤口。 
+
+妈妈，别哭了，看见了他们就像看见了我，他们就是您的亲儿女，会像我一样爱您的。我们的祖国是一个温暖的大家庭啊。
+        </prosody>
+    </voice>
+</speak>

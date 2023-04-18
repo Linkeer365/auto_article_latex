@@ -1,0 +1,12 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        时间里发表第二支歌。 
+
+
+(19) 
+
+世纪的末叶将看到它的诗人（不过，他最初不会由一篇杰作开始，而必须遵循自然法则）；他出生在美洲海岸拉普拉塔河口，那里两个昔日敌对的民族现在正用物质和精神的进步互相赶超。南方的王后布宜诺斯艾利斯和卖弄风情的蒙得维的亚越过大三角海湾的银色水面，互相伸出友谊的手。但是，连绵的战争在农村建立了破坏帝国，欢快地收获大批牺牲者。再见了，老头，如果你读了我的诗就记住我。小伙子，你也不要失望；因为，尽管意见相左，你有个吸血朋友。算上制造疥疮的疥螨，你就有了两个朋友！
+        </prosody>
+    </voice>
+</speak>

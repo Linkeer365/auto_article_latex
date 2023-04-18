@@ -11,6 +11,7 @@ import os
 import shutil
 import sys
 import time
+import datetime
 
 # large 状态下经常出格，不知道怎么办才好
 # 试过多次是这个16 21 最合适
@@ -457,11 +458,18 @@ if __name__ == "__main__":
     os.system("move *.txt  records/{}".format(record_name))
 
     os.chdir("records/{}".format(record_name))
-
-    simple_video_generate_path="D:/simple_video_generate"
-
+    # import datetime
+    time_str=datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+    simple_video_generate_path="D:/simple_video_generate/{}".format(time_str)
+    # print(simple_video_generate_path)
+    if not os.path.exists(simple_video_generate_path):
+        os.makedirs(simple_video_generate_path)
     os.system("copy *.pdf \"{}\"".format(simple_video_generate_path))
     os.system("copy *.mp3 \"{}\"".format(simple_video_generate_path))
-    os.system("copy *.txt \"{}\"".format(simple_video_generate_path))
+    print(simple_video_generate_path)
+    with open("D:/simple_video_generate/svg_paths.txt","a",encoding="utf-8") as f:
+        f.write(simple_video_generate_path)
+        f.write("\n")
+    # os.system("copy *.txt \"{}\"".format(simple_video_generate_path))
     print("done.")
     # os.system("cd ./text_files")
