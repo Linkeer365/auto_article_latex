@@ -1,0 +1,25 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+农民在放牛。 
+
+她心气很高，本就是农村出生，被老师随口这么一说，同学私下叫了她两年美国农民，美国难民。她从此再不肯学英语，嘴里最多也就嘟囔几句那些鬼打架的英文句子，比如什么，来是抗母，去是够，坟
+头烧纸，漏漏漏。 
+
+还有些骂人的，都是些类似顺口溜之类的句子
+，扯远了。 
+
+我当时自然是不知道她这些原因，就说了一些大道理，总而言之就是不能偏科，且强调了英语的重
+要性，都是捡些有利的因素来说。 
+
+她哪里听得进去，甚至强调自己不学英语是因
+为爱国。 
+
+
+最后逼得我承认，编程，与英语好坏无关。 
+
+
+        </prosody>
+    </voice>
+</speak>

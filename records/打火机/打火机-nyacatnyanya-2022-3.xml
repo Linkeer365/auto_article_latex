@@ -1,0 +1,7 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        烛，来找宿管借，宿管找了一会找到了，那女孩子却不见了。我看着阿姨们欢快地讨论这件事，看着她们寻找那个女孩子，有的打火机会点亮生日蛋糕上的蜡烛，有的打火机会点燃我手里的烟。一个熄灭在愿望里，一个熄灭在泥土中。
+        </prosody>
+    </voice>
+</speak>

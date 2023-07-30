@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+那里，希望像蝙蝠在低翔，
+双翅胆怯地拍打着四壁，
+
+脑袋与腐朽的房顶相撞；  
+
+
+当大雨倾泻如注，
+就像大牢狱的铁栅栏一样，
+一群无声、肮脏的蜘蛛爬过来，
+
+在我们的脑中结网；  
+
+
+突然间，几口大钟狂怒地跃起
+向天穹发出可怕的轰鸣，
+如同没有祖国的游魂
+
+在顽强、固执地哀吟。  
+
+
+——几列长长的柩车，鼓乐全无，
+缓慢地驶过我的心灵；希望
+被击败，正在哭泣，而残忍暴戾的愁苦在我低垂的头上竖起了黑旌。
+        </prosody>
+    </voice>
+</speak>

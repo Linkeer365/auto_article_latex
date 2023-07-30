@@ -352,7 +352,7 @@ if __name__ == "__main__":
     with open("./text_files/output.tex","w", encoding="utf-8") as f:
         f.write(new_s4)
     
-    record_name="{}".format(title)
+    record_name="{}-{}".format(title,author)
     year=date.split("-")[0]
     new_title="{}-{}-{}".format(title,author,year)
 

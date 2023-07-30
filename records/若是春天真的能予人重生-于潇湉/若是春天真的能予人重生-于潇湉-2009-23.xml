@@ -1,0 +1,23 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        相见…… 
+
+
+那是多久以前的事了？ 
+
+曾经有两只兔子在落雪的日子里等待着春天。
+
+“春天的时候，美丽的事物就会复苏了呢。”
+灰色的兔子说。 
+
+“若是春天真的能予人重生……就好了啊……
+”白色的兔子有点忧伤，迟疑着答道。 
+
+
+那是灰心和白菜。 
+
+那是心灵里最初和最后的光芒，明亮，却惟独敢碰触的光芒。
+        </prosody>
+    </voice>
+</speak>

@@ -1,0 +1,27 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        人生
+刘慈欣
+
+
+﻿母亲：“我的孩儿，你听得见吗？” 
+
+
+胎儿：“我在哪里？！” 
+
+母亲：“啊孩儿，你听见了？！我是你妈妈啊
+！” 
+
+胎儿：“妈妈！我真是在你的肚子里吗？我周
+围都是水……” 
+
+
+母亲：“孩儿，那是羊水。” 
+
+胎儿：“我还听到一个声音，咚咚的，像好远
+的地方在打雷。” 
+
+        </prosody>
+    </voice>
+</speak>

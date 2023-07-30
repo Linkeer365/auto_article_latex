@@ -1,0 +1,13 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        市的风吹过我的大衣，吹过我的头发。我想起我之前会帮我父亲买烟，又想起我是怎么劝他戒烟，想起他是怎么戒了后又复吸，想起很多很多和我有关的事情
+，又好像一件都和我没有关系。 
+
+我走到宿舍门口的时候看到宿管阿姨拿着打火机，从她们的谈话中我知道是有个同学过生日想点蜡烛，来找宿管借，宿管找了一会找到了，那女孩子却不见了。我看着阿姨们欢快地讨论这件事，看着她们寻找那个女孩子，有的打火机会点亮生日蛋糕上的蜡
+烛，有的打火机会点燃我手里的烟。 
+
+一个熄灭在愿望里，一个熄灭在泥土中。
+        </prosody>
+    </voice>
+</speak>

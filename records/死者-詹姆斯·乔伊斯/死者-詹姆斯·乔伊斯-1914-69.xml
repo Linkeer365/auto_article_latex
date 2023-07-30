@@ -1,0 +1,30 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+嗓子不好，真遗憾。” 
+
+“我说，玛丽·简，”凯特姨妈说，“别去打
+扰达西先生了。我不愿让他觉着烦。” 
+
+看见大家都已做好出发的准备，她便送他们来到门口，在那儿道了晚安：“好，晚安，凯特姨妈，
+谢谢您给了我们这么一个快乐的夜晚。” 
+
+
+“晚安，加布里埃尔，晚安，格莉塔！” 
+
+“晚安，凯特姨妈，真太感谢了。晚安，朱莉
+娅姨妈。” 
+
+
+“噢，晚安，格莉塔，我没看见你呢。” 
+
+“晚安，达西先生。晚安，奥卡拉汉小姐。”
+
+
+“晚安，莫坎小姐。” 
+
+
+        </prosody>
+    </voice>
+</speak>

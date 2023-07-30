@@ -1,0 +1,31 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        
+一些：“你恨我吗？” 
+
+“恨过，是你偷走了我的记忆，怎么会不恨呢？”光芒说，“但是，现在，我很高兴，因为我找回了它们。更重要的是，我知道，我心里留着的东西是
+什么了。” 
+
+
+“是什么？” 
+
+
+“是一滴眼泪。” 
+
+
+“眼泪？” 
+
+
+“而且我知道是谁留的了。” 
+
+
+“谁？” 
+
+“你！你最后一次到我心里，留下过一滴眼泪
+，留在我心里的，就是它——你的眼泪呀。” 
+
+
+        </prosody>
+    </voice>
+</speak>

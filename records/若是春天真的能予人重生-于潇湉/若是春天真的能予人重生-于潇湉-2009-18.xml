@@ -1,0 +1,29 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+    <voice name="zh-CN-YunyangNeural">
+        <prosody rate="-20%" pitch="-10%">
+        职业就是这个啊。粥总是给人带来温暖，无论是谁，
+喝下去都暖暖的，不是很好吗？” 
+
+
+“哦。” 
+
+“灰心，再喝碗粥吧，早饭是非常重要的呢。
+
+灰心看见白菜又把碗递了过来，“原来昨天晚
+上还没喝完啊？” 
+
+
+“啊，嗯……总之，喝了暖暖胃吧。” 
+
+灰心接过，那碗粥的香气让他觉得有些恍惚，
+忍不住一饮而尽，“呀，这味道……是肉？” 
+
+“不是肉！我怎么会放肉呢？我是个只做素粥
+的厨师！好了好了，你快走吧！” 
+
+“呀，这会儿又赶我走了吗？喂，你这人毛病
+真多，怎么就喜欢赶我走啊？！” 
+
+        </prosody>
+    </voice>
+</speak>
